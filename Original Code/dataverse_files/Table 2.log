@@ -1,0 +1,52 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table 2.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-06-29 17:32:10 
+========================================================================= 
+
+                                         (1)        (2)        (3)        (4)       
+ [1,] "Announced"                        "-0.015"   "-0.012"   "-0.019"   "-0.034"  
+ [2,] ""                                 "(-0.844)" "(-0.352)" "(-1.358)" "(-1.109)"
+ [3,] "Active"                           "-0.069"   "-0.123"   "-0.038"   "-0.082"  
+ [4,] ""                                 "(-6.006)" "(-5.304)" "(-4.328)" "(-4.302)"
+ [5,] "Active-Announced"                 "-0.054"   "-0.111"   "-0.019"   "-0.048"  
+ [6,] "F test: Active=Announced"         "9.343"    "10.585"   "1.823"    "2.351"   
+ [7,] "p value"                          "0.002"    "0.001"    "0.177"    "0.125"   
+ [8,] "Mean of dependent variable"       "0.425"    "1.201"    "0.250"    "0.857"   
+ [9,] "Individual controls"              "Yes"      "Yes"      "Yes"      "Yes"     
+[10,] "Country fixed effects"            "Yes"      "Yes"      "Yes"      "Yes"     
+[11,] "Survey round fixed effects"       "Yes"      "Yes"      "Yes"      "Yes"     
+[12,] "Number of observations"           "35721"    "35721"    "40091"    "40091"   
+[13,] "Number of countries"              "19"       "19"       "19"       "19"      
+[14,] "Number of townships and villages" "4372"     "4372"     "4372"     "4372"    
+[15,] "Survey rounds"                    "1-7"      "1-7"      "1-7"      "1-7"     
+[16,] "Adjusted R squared"               "0.069"    "0.084"    "0.039"    "0.067"   
+      (5)        (6)       
+ [1,] "0.034"    "0.053"   
+ [2,] "(1.677)"  "(1.247)" 
+ [3,] "-0.049"   "-0.097"  
+ [4,] "(-3.736)" "(-3.539)"
+ [5,] "-0.083"   "-0.149"  
+ [6,] "16.173"   "11.714"  
+ [7,] "0.000"    "0.001"   
+ [8,] "0.596"    "1.609"   
+ [9,] "Yes"      "Yes"     
+[10,] "Yes"      "Yes"     
+[11,] "Yes"      "Yes"     
+[12,] "36662"    "36662"   
+[13,] "19"       "19"      
+[14,] "4372"     "4372"    
+[15,] "1-7"      "1-7"     
+[16,] "0.076"    "0.086"   
+
+NOTE: Log Print Time:  2021-06-29 17:32:10 
+NOTE: Elapsed Time in seconds: 0.0209450721740723 
+
+========================================================================= 
+Log End Time: 2021-06-29 17:32:10 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

@@ -1,0 +1,30 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A19.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:47:09 
+========================================================================= 
+
+             Active Announced Eventual Active Announced Eventual
+Botswana       1087         0     1514   1399         0     1015
+Ghana          1564       224     1220   3056       358     1362
+Kenya          1345        24      744   3318        72     1348
+Madagascar      552       168      168    288         0      180
+Mozambique      296         0     1041   1080         8      309
+Nigeria        1166        47     1967   1365         0     2732
+Senegal         320       104     1992   1384         0      741
+South Africa   3330       368     3436    791         0      608
+Tanzania        296         0      913   1807       156      292
+Uganda         1240       392      921   4906       158     1072
+Zimbabwe       1088         0     1874   1936         0      335
+
+NOTE: Log Print Time:  2021-07-06 09:47:09 
+NOTE: Elapsed Time in seconds: 0.00504302978515625 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:47:09 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

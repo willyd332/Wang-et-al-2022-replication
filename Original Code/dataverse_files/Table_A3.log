@@ -1,0 +1,32 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A3.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:46:00 
+========================================================================= 
+
+                  Precise location Imprecise location
+Manufacture                  39.50              51.37
+Resource                     14.00              17.12
+Service                      46.50              31.51
+Private firms                54.50              41.78
+State-owned firms            45.50              58.22
+[  0.02,    7.52)            35.83              16.67
+[  7.52,   25.40)            27.81              22.22
+[ 25.40,  102.09)            20.86              31.25
+[102.09,20000.00]            15.51              29.86
+2003-2006                     7.50               8.22
+2007-2010                    13.50              15.07
+2011-2014                    29.50              27.40
+2015-2018                    49.50              49.32
+
+NOTE: Log Print Time:  2021-07-06 09:46:00 
+NOTE: Elapsed Time in seconds: 0.022946834564209 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:46:00 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

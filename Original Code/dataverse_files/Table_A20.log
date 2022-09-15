@@ -1,0 +1,38 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A20.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:47:10 
+========================================================================= 
+
+                 row_labels Announced Active Eventual Not close Announced Active
+1 Living in urban areas (%)     71.14  77.82    75.30     29.73     52.93  62.40
+2      No formal school (%)      6.51   5.05    10.10     17.24     14.95   8.05
+3        Primary school (%)     23.98  18.38    23.24     35.91     39.12  29.37
+4      Secondary school (%)     48.34  51.99    48.21     36.04     35.51  43.13
+5 Post-secondary school (%)     19.67  23.04    17.73     10.49     10.01  18.53
+6         Post-graduate (%)      1.51   1.54     0.72      0.32      0.40   0.92
+7                       Age     35.98  36.16    35.42     36.55     37.65  35.31
+8                Female (%)     50.26  50.08    50.00     50.11     50.93  50.08
+  Eventual Not close
+1    57.68     33.56
+2    14.11     16.75
+3    27.19     33.77
+4    40.58     38.18
+5    17.55     10.89
+6     0.56      0.41
+7    34.37     36.80
+8    50.04     50.10
+
+NOTE: Data frame has 8 rows and 9 columns. 
+
+NOTE: Log Print Time:  2021-07-06 09:47:10 
+NOTE: Elapsed Time in seconds: 0.0150661468505859 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:47:10 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

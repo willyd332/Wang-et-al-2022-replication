@@ -1,0 +1,80 @@
+﻿country,President,Start_Year,End_Year,Start_date,End_date
+Algeria,Liamine Zeroual,1995,1999,1-Jan-95,27-Apr-99
+Algeria,Abdelaziz Bouteflika,1999,2019,27-Apr-99,2-Apr-19
+Botswana,Festus Mogae,1998,2008,31-Mar-98,1-Apr-08
+Botswana,Ian Khama,2008,2018,1-Apr-08,1-Apr-18
+Botswana,Mokgweetsi Masisi,2018,2020,1-Apr-18,31-Dec-20
+Cameroon,Paul Biya,1984,2020,4-Feb-84,31-Dec-20
+Cote d'Ivoire,Henri Konan Bedie,1993,1999,7-Dec-93,24-Dec-99
+Cote d'Ivoire,Robert Guei,1999,2000,24-Dec-99,26-Oct-00
+Cote d'Ivoire,Laurent Gbagbo,2000,2011,26-Oct-00,11-Apr-11
+Cote d'Ivoire,Alassane Ouattara,2011,2020,11-Apr-11,31-Dec-20
+Egypt,Hosni Mubarak,1981,2011,14-Oct-81,11-Feb-11
+Egypt,Mohamed Hussein Tantawi,2011,2012,11-Feb-11,30-Jun-12
+Egypt,Mohamed Morsi,2012,2013,30-Jun-12,3-Jul-13
+Egypt,Adly Mansour,2013,2014,4-Jul-13,8-Jun-14
+Egypt,Abdel Fattah el-Sisi,2014,2020,8-Jun-14,31-Dec-20
+Ghana,Jerry Rawlings,1993,2001,7-Jan-93,7-Jan-01
+Ghana,John Kufour,2001,2009,7-Jan-01,7-Jan-09
+Ghana,John Atta Mills,2009,2012,7-Jan-09,24-Jul-12
+Ghana,John Mahama,2012,2017,24-Jul-12,7-Jan-17
+Ghana,Nana Akufo-Addo,2017,2020,7-Jan-17,31-Dec-20
+Kenya,Daniel Arap Moi,1978,2002,22-Aug-78,30-Dec-02
+Kenya,Mwai Kibaki,2002,2013,30-Dec-02,9-Apr-13
+Kenya,Uhuru Kenyatta,2013,2020,9-Apr-13,31-Dec-20
+Madagascar,Didier Ratsiraka,1997,2002,9-Feb-97,15-Jul-02
+Madagascar,Marc Ravalomanana,2002,2007,15-Jul-02,17-Mar-07
+Madagascar,Andry Rajoelina,2007,2014,17-Mar-07,25-Jan-14
+Madagascar,Hery Rajaonarimampianina,2014,2018,25-Jan-14,7-Sep-18
+Madagascar,Rivo Rakotovao,2018,2019,7-Sep-18,19-Jan-19
+Madagascar,Andry Rajoelina,2019,2020,19-Jan-19,31-Dec-20
+Malawi,Bakili Muluzi,1994,2004,24-May-94,24-May-04
+Malawi,Bingu wa Mutharika,2004,2012,24-May-04,5-Apr-12
+Malawi,Joyce Banda,2012,2014,7-Apr-12,31-May-14
+Malawi,Peter Mutharika,2014,2020,31-May-14,28-Jun-20
+Mauritius,Navim Ramgoolam,1995,2000,15-Dec-95,11-Sep-00
+Mauritius,Anerood Jugnauth,2000,2003,12-Sep-00,7-Oct-03
+Mauritius,Paul Berenger,2003,2005,7-Oct-03,5-Jul-05
+Mauritius,Navim Ramgoolam,2005,2014,5-Jul-05,17-Dec-14
+Mauritius,Anerood Jugnauth,2014,2017,17-Dec-14,23-Jan-17
+Mauritius,Pravind Jugnauth,2017,2020,23-Jan-17,31-Dec-20
+Morocco,Abderrahmane Youssoufi,1998,2002,4-Feb-98,9-Oct-02
+Morocco,Driss Jettou,2002,2007,9-Oct-02,19-Sep-07
+Morocco,Abbas El Fassi,2007,2011,19-Sep-07,29-Nov-11
+Morocco,Abdelilah Benkirane,2011,2017,29-Nov-11,5-Apr-17
+Morocco,Saadeddine Othmani,2017,2020,5-Apr-17,31-Dec-20
+Mozambique,Joachim Chissano,1990,2005,1-Dec-90,2-Feb-05
+Mozambique,Armando Guebuza,2005,2015,2-Feb-05,15-Jan-15
+Mozambique,Felipe Nyusi,2015,2020,15-Jan-15,31-Dec-20
+Namibia,Sam Nujoma,1990,2005,21-Mar-90,21-Mar-05
+Namibia,Hifikepunye Pohamba,2005,2015,21-Mar-05,21-Mar-15
+Namibia,Hage Geingob,2015,2020,21-Mar-15,31-Dec-20
+Nigeria,Olusegun Obasanjo,1999,2007,29-May-99,29-May-07
+Nigeria,Umaru Musa Yar'Adua,2007,2010,29-May-07,5-May-10
+Nigeria,Goodluck Jonathan,2010,2015,5-May-10,29-May-15
+Nigeria,Muhammadu Buhari,2015,2020,29-May-15,31-Dec-20
+Senegal,Abdou Diouf,1981,2000,1-Jan-81,1-Apr-00
+Senegal,Abdoulaye Wade,2000,2012,1-Apr-00,2-Apr-12
+Senegal,Macky Sall,2012,2020,2-Apr-12,31-Dec-20
+South Africa,Thabo Mbeki,1999,2008,14-Jun-99,24-Sep-08
+South Africa,Kgalema Motlanthe,2008,2009,24-Sep-08,9-May-09
+South Africa,Jacob Zuma,2009,2018,9-May-09,14-Feb-18
+South Africa,Cyril Ramaphosa,2018,2020,15-Feb-20,31-Dec-20
+Tanzania,Benjamin Mkapa,1995,2005,23-Nov-95,21-Dec-05
+Tanzania,Jakaya Kikwete,2005,2015,21-Dec-05,5-Nov-15
+Tanzania,John Magufuli,2015,2020,5-Nov-15,31-Dec-20
+Tunisia,Zine el Abidine Ben Ali,1987,2011,7-Nov-87,14-Jan-11
+Tunisia,Fouad Mebaza,2011,2011,15-Jan-11,13-Dec-11
+Tunisia,Moncef Marzouki,2011,2014,13-Dec-11,31-Dec-14
+Tunisia,Beji Caid Essebsi,2014,2019,31-Dec-14,25-Jul-19
+Tunisia,Mohamed Ennaceur,2019,2019,25-Jul-19,23-Oct-19
+Tunisia,Kais Saied,2019,2020,23-Oct-19,31-Dec-20
+Uganda,Yoweri Museveni,1986,2020,26-Jan-86,31-Dec-20
+Zambia,Frederick Chiluba,1991,2002,2-Nov-91,2-Jan-02
+Zambia,Levy Mwanawasa,2002,2008,2-Jan-02,19-Aug-08
+Zambia,Rupiah Banda,2008,2011,19-Aug-08,23-Sep-11
+Zambia,Michael Sata,2011,2014,23-Sep-11,28-Oct-14
+Zambia,Guy Scott,2014,2015,28-Oct-14,25-Jan-15
+Zambia,Edgar Lungu,2015,2020,25-Jan-15,31-Dec-20
+Zimbabwe,Robert Mugabe,1987,2017,31-Dec-87,21-Nov-17
+Zimbabwe,Emerson Mnangagwa,2017,2020,24-Nov-17,31-Dec-20

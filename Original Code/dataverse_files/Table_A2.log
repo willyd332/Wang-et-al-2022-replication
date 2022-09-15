@@ -1,0 +1,41 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A2.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:46:00 
+========================================================================= 
+
+                   D_precise
+Destination_country Precise location Imprecise location
+      Algeria                     10                 13
+      Botswana                     1                  0
+      Cameroon                     3                  3
+      Cote d'Ivoire                1                  3
+      Egypt                       35                 19
+      Ghana                       10                  7
+      Kenya                       22                  7
+      Madagascar                   1                  1
+      Malawi                       2                  1
+      Mauritius                    1                  1
+      Morocco                     10                  8
+      Mozambique                   1                  7
+      Namibia                      1                  1
+      Nigeria                     11                 19
+      Senegal                      2                  3
+      South Africa                63                 22
+      Tanzania                     1                  7
+      Tunisia                      2                  7
+      Uganda                       4                  3
+      Zambia                      13                  6
+      Zimbabwe                     6                  8
+
+NOTE: Log Print Time:  2021-07-06 09:46:00 
+NOTE: Elapsed Time in seconds: 0.0179510116577148 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:46:00 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

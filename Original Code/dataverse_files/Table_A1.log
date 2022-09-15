@@ -1,0 +1,43 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A1.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:45:59 
+========================================================================= 
+
+                                                                 crs_sector_name   n
+1                                                        Action Relating to Debt  69
+2                                              Agriculture, Forestry and Fishing 130
+3                                                 Banking and Financial Services   4
+4                                                    Business and Other Services   2
+5                                                                 Communications 132
+6                                Developmental Food Aid/Food Security Assistance  25
+7                                                                      Education 223
+8                                                             Emergency Response 115
+9                                                   Energy Generation and Supply  49
+10                                                        General Budget Support   3
+11                                                  Government and Civil Society 254
+12                                                                        Health 287
+13                                                Industry, Mining, Construction  27
+14                                                             Other Multisector  70
+15                                      Other Social infrastructure and services  91
+16                      Population Policies / Programmes and Reproductive Health  17
+17 Support to Non-governmental Organizations (NGOs) and Government Organizations   4
+18                                                             Trade and Tourism  12
+19                                                         Transport and Storage 180
+20                                                     Unallocated / Unspecified 247
+21                                                   Water Supply and Sanitation  96
+22                                                          Women in Development   9
+
+NOTE: Data frame has 22 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-06 09:46:00 
+NOTE: Elapsed Time in seconds: 0.0119681358337402 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:46:00 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

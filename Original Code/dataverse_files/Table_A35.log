@@ -1,0 +1,44 @@
+========================================================================= 
+[1] "Log Path: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files/log/Table_A35.log"
+[1] "Working Directory: C:/Users/xwang21/Dropbox/Research/China FDI Africa/JOP R and R/JOP Replication Files"
+User Name: xwang21 
+R Version: 4.0.4 (2021-02-15) 
+Machine: LAPTOP-7NELGKDS x86-64 
+Operating System: Windows 10 x64 build 19042 
+Log Start Time: 2021-07-06 09:49:43 
+========================================================================= 
+
+                                  resp_status
+country_president                  Active Announced Eventual
+  Algeria: Abdelaziz Bouteflika         0       188      659
+  Cameroon: Paul Biya                 706         0      312
+  Cote d'Ivoire: Alassane Ouattara     48         0      807
+  Egypt: Abdel Fattah el-Sisi         294         0      120
+  Egypt: Mohamed Morsi                410         0      197
+  Ghana: John Atta Mills              376         0      144
+  Ghana: John Kufour                    0       192      600
+  Kenya: Mwai Kibaki                  584        16      688
+  Kenya: Uhuru Kenyatta               761         8       56
+  Morocco: Abdelilah Benkirane        394        48      349
+  Morocco: Saadeddine Othmani         352        64       24
+  Nigeria: Goodluck Jonathan          496         0      376
+  Nigeria: Muhammadu Buhari           218         0      112
+  Nigeria: Olusegun Obasanjo          236         0     1311
+  Nigeria: Umaru Musa Yar'Adua        216         0      168
+  Senegal: Macky Sall                 320       104      856
+  South Africa: Jacob Zuma           2418       192      372
+  South Africa: Thabo Mbeki           912       176     3064
+  Tunisia: Beji Caid Essebsi          447         0      456
+  Uganda: Yoweri Museveni            1240       392      921
+  Zambia: Frederick Chiluba             0       199       91
+  Zambia: Levy Mwanawasa              112       184      389
+  Zambia: Rupiah Banda                160         0      184
+  Zimbabwe: Robert Mugabe            1088         0     1874
+
+NOTE: Log Print Time:  2021-07-06 09:49:43 
+NOTE: Elapsed Time in seconds: 0.0150737762451172 
+
+========================================================================= 
+Log End Time: 2021-07-06 09:49:43 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 
