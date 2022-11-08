@@ -1,0 +1,534 @@
+FDIProj,Year,Source_country,Destination_country,Amount,Sector,Project_type,Ownership_final,Precision_final,Ancmtyear,Opyear_final,xcoord,ycoord
+6708,2003,China,Nigeria,1383.3,"Coal, oil & gas",New,CS,7,,U,8.67528,9.082
+7523,2003,China,Nigeria,20,Beverages,New,POE,1,U,2003,3.41206,6.42994
+7906,2003,China,Zimbabwe,300,Metals,New,CS,7,,U,29.15486,-19.01544
+7985,2003,China,Egypt,3,Industrial equipment,New,POE,7,,U,-77.40749,43.06423
+10002,2003,China,Algeria,350,"Coal, oil & gas",New,CS,1,2003,2006,-0.15631,28.20719
+12388,2003,China,Zambia,7.6,Chemicals,New,CS,3,,2003,28.05374,-12.63392
+13330,2003,China,Egypt,7,Communications,New,POE,1,2003,2003,31.02194,30.07206
+13486,2003,China,Niger,1641.2,"Coal, oil & gas",New,CS,3,,2006,10.86278,20.77806
+16700,2004,China,Sudan,45.7,Transportation,New,CS,6,,2004,30.21764,12.86281
+19669,2004,China,Tanzania,162.2,Chemicals,New,CS,7,,U,34.88882,-6.36903
+20487,2004,China,South Africa,2.8,Metals,New,POE,1,2003,2004,28.04256,-26.14744
+23459,2004,China,Algeria,9.4,Communications,New,POE,7,,U,1.65963,28.03389
+23989,2004,China,Nigeria,9.4,Communications,New,POE,7,,2005,7.39857,9.07648
+25333,2003,China,Uganda,9.9,"Paper, printing & packaging",New,PS,9,2003,U,32.60796,0.31774
+26231,2005,China,Rwanda,7.5,Communications,New,POE,7,,U,29.87389,-1.94028
+26520,2005,China,Angola,300,Communications,New,POE,6,,C-2005,17.87389,-11.20269
+26706,2005,China,Angola,9.4,Communications,New,POE,7,,U,17.87389,-11.20269
+26707,2005,China,Angola,7,Communications,New,POE,1,2005,U,13.18269,-8.90656
+26708,2005,China,Angola,40.1,Communications,New,POE,7,,U,17.87389,-11.20269
+26852,2005,China,Madagascar,159.8,Building materials,New,USOE,1,2005,2008,47.60344,-18.95094
+26948,2005,Hong Kong,Egypt,197.1,Warehousing,New,POE,1,2005,2007,29.78769,31.14256
+26949,2005,Hong Kong,Egypt,197.1,Warehousing,New,POE,1,2005,2007,29.79081,31.14294
+28894,2005,China,Algeria,88.8,Automotive OEM,New,LS,7,,U,1.65963,28.03389
+28977,2005,China,Zambia,9.4,Communications,New,POE,7,,U,27.84933,-13.1339
+30051,2005,Hong Kong,Egypt,51.7,Automotive OEM,New,PS,1,2005,2006,30.88931,29.95131
+30227,2005,China,Egypt,12.5,Industrial equipment,New,CS,9,2005,2008,32.56794,29.94631
+30543,2005,China,Kenya,1.5,Consumer electronics,New,LS,1,U,2005,36.95956,-1.47544
+32378,2005,China,Egypt,373.7,"Coal, oil & gas",New,CS,1,U,2005,31.28756,29.97694
+32551,2005,Hong Kong,Kenya,12.3,Business machines & equipment,New,POE,1,2005,U,36.78194,-1.26019
+32552,2005,Hong Kong,Kenya,1.3,Business machines & equipment,New,POE,1,2005,2005,36.78194,-1.26019
+33643,2003,China,Zambia,150,Metals,New,CS,1,1998,2003,28.21757,-12.82319
+33644,2005,China,Zambia,19.6,Metals,Expansion,CS,1,1998,2005,28.21757,-12.82319
+33654,2005,China,Kenya,9.4,Communications,New,POE,1,2005,U,36.81356,-1.29806
+34935,2005,China,Egypt,9.7,Communications,New,POE,3,,2005,31.23571,30.04442
+39156,2006,China,Zambia,96.2,Metals,New,CS,1,2006,2008,28.04844,-12.65156
+39490,2006,Hong Kong,Morocco,1.3,Business machines & equipment,New,POE,1,2006,2006,-7.62619,33.57006
+41074,2006,Hong Kong,Egypt,373.7,"Coal, oil & gas",New,POE,3,,2006,33.81161,27.2579
+42206,2006,China,Senegal,558,"Coal, oil & gas",New,CS,3,,U,-17.46769,14.71668
+44618,2006,China,Ethiopia,5.21,Communications,New,POE,3,,2011,37.36135,11.57421
+45585,2006,China,Ethiopia,1500,Communications,Expansion,POE,6,,U,38.75776,8.9806
+47441,2006,China,Zambia,200,Metals,New,CS,1,1998,2008,28.04844,-12.65156
+49726,2007,China,Egypt,395.1,Chemicals,New,CS,3,,U,30.84285,29.3084
+49922,2007,China,Gabon,55.6,Minerals,New,POE,3,,U,10.76052,-0.18828
+50230,2007,China,South Africa,19,Consumer electronics,New,LS,1,2007,2013,28.04731,-26.2041
+53514,2007,China,Uganda,5.2,Non-automotive transport OEM,New,CS,1,2005,2007,32.62375,0.32648
+54962,2007,China,South Africa,10.1,Automotive OEM,New,POE,1,2007,2007,28.01031,-26.21494
+55521,2007,China,Nigeria,49.8,Real estate,New,POE,9,2007,2008,8.32801,5.01966
+55902,2007,Hong Kong,Egypt,45.7,Transportation,New,POE,1,2007,2007,31.3656,30.05109
+57023,2007,China,Rwanda,20,Communications,New,POE,7,,2007,29.87389,-1.94028
+60464,2007,China,Democratic Republic of Congo,350,Metals,New,POE,7,,U,21.75866,-4.03833
+60962,2007,China,Mozambique,20,Building materials,New,POE,3,,C-2012,32.57317,-25.96925
+61185,2007,China,Democratic Republic of Congo,183,Metals,New,U,1,2006,2006,27.48619,-11.64844
+61874,2007,Hong Kong,Kenya,13.8,Business services,New,POE,1,2007,2010,36.82256,-1.28244
+61907,2007,China,Zambia,100,Metals,New,CS,1,1998,2007,28.06119,-12.65981
+61931,2007,China,Rwanda,0.5,Communications,New,POE,7,,2007,29.87389,-1.94028
+62761,2007,China,Nigeria,644.35,Building materials,New,POE,3,,U,7.6941,6.45785
+65118,2008,China,Madagascar,270,Metals,New,CS,3,,U,45.8865,-21.66296
+65912,2008,China,South Africa,440,Metals,New,CS,7,,U,22.93751,-30.55948
+67783,2008,China,Ghana,143,"Coal, oil & gas",New,LS,1,2007,2008,0.04731,5.68031
+68251,2008,China,Algeria,286.53,Automotive OEM,New,LS,3,,U,0.14014,36.01312
+69830,2008,Hong Kong,Kenya,7.5,Communications,New,POE,7,,2008,37.90619,-0.02356
+69903,2008,China,South Africa,33.7,Food & tobacco,New,LS,7,,U,25.28376,-26.66386
+70078,2008,China,Botswana,200,Real estate,New,POE,9,2008,2011,25.91469,-24.59019
+70678,2008,China,Niger,1641.2,"Coal, oil & gas",New,CS,3,,2011,13.28331,16.83331
+70933,2008,China,Kenya,1,Communications,New,POE,1,2008,2008,36.84919,-1.32556
+72643,2008,China,Egypt,4.6,Healthcare,New,PS,1,2008,2008,32.27956,30.62544
+74200,2008,China,South Africa,7,Communications,New,POE,1,U,2008,28.09031,-26.06456
+74202,2008,China,South Africa,7,Communications,New,POE,1,U,2008,28.08019,-26.06456
+74525,2008,China,Ethiopia,15,Ceramics & glass,New,CS,1,2007,2009,38.70931,8.96031
+74919,2003,China,Algeria,1641.2,"Coal, oil & gas",New,CS,3,,2003,-0.17291,28.21162
+75036,2008,China,Nigeria,362.21,Building materials,New,POE,4,,U,5.22667,12.93743
+75634,2008,China,Angola,3535,Real estate,New,CS,3,,2012,13.27212,-8.99706
+76878,2008,China,Zambia,400,Renewable energy,Expansion,CS,1,2008,2018,28.76169,-16.52206
+78263,2008,China,South Africa,33.8,Chemicals,New,POE,1,U,2008,28.04731,-26.2041
+78740,2008,China,Egypt,2.9,Industrial equipment,New,POE,1,2008,2011,31.30631,30.07656
+79053,2008,China,Chad,758,"Coal, oil & gas",New,CS,3,,2008,15.05574,12.13485
+79123,2008,China,Egypt,15,Consumer electronics,New,LS,1,U,2008,31.19681,29.99934
+79390,2008,China,Nigeria,58.6,Ceramics & glass,New,POE,3,,U,3.58127,6.90753
+81134,2008,China,Cameroon,271.59,Chemicals,New,CS,7,,U,12.35472,7.36972
+81143,2008,China,Cameroon,70.41,Building materials,New,CS,7,,U,12.35472,7.36972
+81411,2008,China,Zimbabwe,400,Ceramics & glass,New,USOE,3,,U,29.91623,-18.32694
+81910,2008,China,Algeria,100,Automotive OEM,New,PS,3,,2018,5.41509,36.1969
+85286,2009,China,Kenya,36.11,Industrial equipment,New,CS,7,,U,37.90619,-0.02356
+85659,2009,China,Ethiopia,10,Automotive OEM,New,POE,1,U,2009,38.77006,8.98681
+86105,2009,China,South Africa,11,Financial services,New,CS,1,U,2009,28.05656,-26.09794
+87142,2008,Hong Kong,Tanzania,15.3,Transportation,New,POE,3,,2008,39.20833,-6.79235
+87960,2009,China,Angola,6.8,Business services,New,CS,1,2006,2007,28.13169,-25.97731
+88142,2009,China,Algeria,88.8,Automotive OEM,New,POE,7,,U,1.65963,28.03389
+90024,2009,China,Algeria,4,Business machines & equipment,New,CS,6,,2011,1.65963,28.03389
+92027,2009,China,Chad,45.7,Transportation,New,CS,6,,2011,18.73221,15.45417
+92169,2009,Hong Kong,Kenya,1.3,Business machines & equipment,New,POE,1,U,2009,36.82094,-1.28056
+92263,2009,China,South Africa,80,Automotive OEM,New,CS,7,,U,22.93751,-30.55948
+93206,2009,China,Zambia,328.8,Metals,New,CS,1,2009,2012,28.41631,-13.14356
+93365,2009,China,Egypt,11,Financial services,New,CS,1,U,2009,31.2642,29.96483
+94879,2009,China,Sudan,94.5,Automotive OEM,New,USOE,7,,2009,30.21764,12.86281
+96193,2009,China,South Africa,76.8,Metals,New,CS,1,2006,2009,30.14394,-24.55019
+96880,2009,Hong Kong,Tunisia,11,Financial services,New,POE,1,2009,2012,10.17898,36.81591
+97907,2007,China,South Africa,1.5,Medical devices,New,POE,1,U,2007,27.92545,-26.07875
+98472,2009,China,Zambia,96.2,Metals,Expansion,CS,1,2009,2010,28.04844,-12.65156
+98816,2009,China,Egypt,7,Communications,Expansion,POE,1,U,2009,31.0034,30.0206
+99338,2009,Hong Kong,Egypt,75,Automotive OEM,New,PS,9,2009,2012,32.33181,29.67406
+99782,2009,China,Sudan,1641.2,"Coal, oil & gas",Expansion,CS,1,2009,U,32.68669,16.13119
+100240,2009,China,South Africa,60.5,Communications,New,POE,1,U,2009,28.09031,-26.06456
+101555,2009,China,Zambia,400,Metals,Expansion,CS,3,,2009,28.64981,-12.99064
+101863,2010,China,Zimbabwe,55.4,Communications,New,POE,7,,2010,29.15486,-19.01544
+101867,2010,China,Zimbabwe,9.4,Communications,New,POE,1,2010,2010,31.05456,-17.82756
+102518,2009,China,Zimbabwe,7.5,Communications,New,POE,3,,2009,31.03351,-17.82517
+103683,2010,China,Democratic Republic of Congo,162.2,Chemicals,New,CS,3,,C-2013,11.88917,-4.14284
+107114,2010,China,Ethiopia,11,Financial services,New,CS,3,,2010,38.75776,8.9806
+107611,2010,Hong Kong,Tunisia,11.9,Textiles,New,POE,1,U,2010,10.17641,36.79859
+107612,2010,Hong Kong,Libya,11.9,Textiles,New,POE,7,,U,17.22833,26.3351
+109822,2010,China,South Africa,10,Automotive OEM,New,LS,7,,U,22.93751,-30.55948
+109824,2010,China,South Africa,116.3,Automotive OEM,New,LS,7,,U,22.93751,-30.55948
+110170,2010,China,South Africa,119.08,Building materials,New,LS,1,2010,2015,27.54644,-24.98669
+111418,2010,Hong Kong,Tanzania,12.5,Building materials,New,POE,2,2010,2015,39.50969,-8.93819
+112620,2010,China,South Africa,7.5,Communications,New,CS,1,2010,2012,28.08744,-26.06169
+114249,2010,China,Senegal,94.5,Automotive OEM,New,POE,7,,2010,-14.45236,14.4974
+115825,2010,China,South Africa,116.3,Automotive OEM,New,POE,1,2010,U,28.11031,-26.06331
+119177,2010,China,Ethiopia,67,Textiles,New,POE,3,,2010,38.76038,9.18528
+122055,2011,China,Algeria,48.2,Industrial equipment,New,LS,1,2011,U,6.15219,35.56206
+125098,2011,Hong Kong,Ghana,4000,Metals,New,POE,3,,U,-1.7831,4.90158
+125171,2011,China,South Africa,5.8,Software & IT services,New,POE,1,U,2011,28.09031,-26.06456
+126153,2011,China,Democratic Republic of Congo,11.8,Electronic components,New,POE,3,,U,15.27176,-4.33085
+126296,2011,China,Tunisia,13.5,Industrial equipment,New,CS,7,,2011,9.5375,33.88692
+127915,2011,China,Kenya,62.1,Automotive OEM,New,PS,1,2011,2014,36.82869,-1.30856
+128638,2011,Hong Kong,South Africa,7.5,Communications,New,POE,3,,C-2011,18.86015,-33.9321
+129371,2011,China,Ethiopia,94.5,Automotive OEM,New,POE,9,2011,2013,38.88294,8.81706
+129375,2011,China,Ethiopia,12.7,Automotive OEM,New,POE,1,2011,2009,38.77406,9.01231
+129577,2011,Hong Kong,Benin,46.2,Automotive OEM,New,PS,3,,U,2.39124,6.37029
+133931,2011,China,Mozambique,96.4,Building materials,New,PS,3,,U,33.27845,-16.82642
+134166,2011,China,South Africa,7.9,Engines & turbines,New,USOE,1,U,2011,28.0567,-26.10757
+134529,2011,Hong Kong,South Africa,22.9,Food & tobacco,New,POE,1,2011,U,29.23569,-26.96206
+135010,2011,China,Egypt,223,Ceramics & glass,New,CS,9,2011,2013,32.32144,29.66794
+135597,2011,China,Zambia,700,Metals,Expansion,CS,1,2011,2011,28.06119,-12.65981
+138437,2007,Hong Kong,Kenya,13.6,Chemicals,New,POE,1,U,2007,36.82069,-1.27306
+139250,2011,China,South Africa,56.056,Automotive OEM,New,CS,1,2008,2011,25.64781,-33.81619
+140036,2011,China,Tunisia,22.2,"Coal, oil & gas",New,CS,7,,U,9.5375,33.88692
+141443,2010,China,South Africa,4.7,Industrial equipment,New,PS,1,2010,2011,28.04731,-26.2041
+141752,2011,China,Mozambique,78,Building materials,New,POE,3,,2014,32.57317,-25.96925
+142372,2011,China,Ghana,11,Financial services,New,CS,3,,2011,-0.18696,5.60372
+142377,2011,China,Zambia,11,Financial services,New,CS,2,U,2011,28.29369,-15.41519
+143309,2011,China,South Africa,11,Financial services,New,CS,1,U,2011,18.42694,-33.91969
+143813,2011,Hong Kong,South Africa,15.3,Transportation,New,POE,1,U,2011,30.82369,-29.79431
+144873,2011,China,Kenya,2.18,Automotive components,New,PS,1,2011,2012,36.82869,-1.30856
+145090,2011,China,Ethiopia,60.6,Non-automotive transport OEM,New,CS,7,,U,40.48967,9.145
+145577,2011,China,Ethiopia,94.5,Automotive OEM,New,CS,3,,2011,39.25833,8.52635
+146063,2012,China,Ghana,62,Metals,New,POE,3,,U,-2.27781,6.2274
+146265,2012,China,Zambia,3,Automotive OEM,New,LS,9,2012,U,28.39056,-15.52394
+146272,2011,China,Zambia,94.5,Automotive OEM,New,PS,1,2011,2013,28.26456,-15.45281
+146537,2011,China,South Africa,33.7,Food & tobacco,New,POE,1,2011,2016,28.07069,-26.41994
+146542,2012,China,Egypt,45.7,Food & tobacco,New,POE,9,2007,2013,30.63231,30.44506
+146641,2011,China,South Africa,7.5,Communications,New,POE,1,2011,2012,18.57644,-33.87119
+146844,2012,China,Angola,7.5,Communications,New,CS,6,,U,17.87389,-11.20269
+146845,2012,China,Kenya,60.5,Communications,New,CS,1,U,2012,36.78569,-1.29056
+146850,2012,China,Algeria,7.5,Communications,New,CS,7,,U,1.65963,28.03389
+146853,2012,China,Senegal,7.5,Communications,New,CS,7,,U,-14.45236,14.4974
+146854,2012,China,Sudan,7.5,Communications,New,CS,6,,U,32.5599,15.50065
+146855,2012,China,Zambia,7.5,Communications,New,CS,7,,U,27.84933,-13.1339
+146857,2012,China,Democratic Republic of Congo,7.5,Communications,New,CS,6,,U,21.75866,-4.03833
+146859,2012,China,Zimbabwe,7.5,Communications,New,CS,6,,U,29.15486,-19.01544
+146863,2012,China,Ethiopia,7.5,Communications,New,CS,7,,U,40.48967,9.145
+147058,2012,China,South Africa,0.02,Metals,New,POE,9,2012,2014,25.60224,-33.96084
+147062,2012,China,South Africa,0.02,Metals,New,POE,3,,2012,24.01312,-30.67663
+147065,2012,China,South Africa,0.02,Metals,New,POE,3,,U,21.23681,-28.39527
+147070,2012,China,South Africa,7,Metals,New,POE,3,,U,24.74991,-28.72824
+148432,2012,China,South Africa,6.2,Chemicals,New,POE,1,U,2012,28.05469,-26.11394
+149519,2012,China,Zambia,96.2,Metals,New,POE,1,2012,2012,28.24119,-15.39356
+150227,2010,China,South Africa,2.9,Industrial equipment,New,LS,1,U,2010,28.21944,-26.14756
+150231,2012,China,South Africa,5,Industrial equipment,New,LS,1,2012,2012,28.21944,-26.14756
+150234,2012,China,Ghana,5,Industrial equipment,New,LS,1,U,2012,-0.14419,5.63356
+150235,2012,China,Kenya,2.9,Industrial equipment,New,LS,1,U,2011,36.88919,-1.33219
+150245,2011,China,Egypt,2.9,Industrial equipment,New,LS,7,,2011,-77.40749,43.06423
+150540,2012,China,Egypt,7.5,Communications,New,POE,1,U,2012,31.32606,30.06131
+156172,2012,China,Nigeria,7,Communications,New,POE,1,2012,2012,3.41719,6.43019
+157159,2012,China,Kenya,11,Financial services,New,CS,1,2012,2013,36.78355,-1.29917
+158441,2012,Hong Kong,Ethiopia,23.1,Communications,New,POE,3,,2012,38.65823,8.92538
+162092,2012,China,Zambia,328.8,Metals,New,POE,3,,U,28.35642,-12.85513
+162624,2012,China,Uganda,100,Metals,New,CS,3,,U,30.6545,-0.60716
+164808,2012,China,South Africa,2.8,Metals,New,CS,1,U,2012,28.05431,-26.10181
+165398,2012,China,Nigeria,14.6,Business services,New,CS,3,,2012,8.0247,4.94876
+165547,2012,China,Cote d'Ivoire,30,Communications,New,POE,3,,2012,-3.75367,5.22594
+165604,2012,China,South Africa,22.24,Automotive OEM,New,PS,1,2012,2018,28.40619,-26.26094
+166076,2012,China,Egypt,28.4,Communications,New,POE,1,U,2012,31.0034,30.0206
+166739,2012,China,South Africa,15.3,Transportation,New,CS,1,2012,2013,31.03481,-29.86081
+167299,2012,China,Angola,11,Financial services,New,CS,1,U,2012,13.19056,-8.92306
+167602,2012,China,Namibia,270,Metals,New,CS,1,2012,2016,15.01881,-22.58806
+169233,2012,Hong Kong,Mozambique,500,Real estate,New,POE,3,,2015,34.83702,-19.83159
+169934,2012,China,South Africa,3.9,Consumer electronics,New,LS,1,U,2012,22.08341,-34.17474
+170927,2013,China,Ghana,15.3,Transportation,New,PS,1,2012,2013,-0.85181,9.39894
+172248,2013,Hong Kong,Rwanda,6.4,Communications,New,POE,3,,2013,30.11357,-1.9595
+172743,2013,China,South Africa,10.5,Communications,New,POE,1,U,2013,28.09031,-26.06456
+174835,2012,China,Morocco,6.5,Communications,New,POE,1,U,2012,-6.83269,34.01506
+175886,2013,Hong Kong,South Africa,6.8,Business services,New,POE,1,U,2013,31.00106,-29.84556
+175887,2013,Hong Kong,South Africa,6.8,Business services,New,POE,1,U,2013,18.42356,-33.91994
+177644,2013,China,South Africa,35.1159,Consumer electronics,New,LS,1,2013,2017,18.48844,-33.58094
+179146,2013,China,Uganda,94.5,Automotive OEM,New,PS,7,,U,32.29028,1.37333
+181930,2013,Hong Kong,Uganda,13.8,Software & IT services,New,POE,1,U,2013,32.58212,0.31426
+182496,2013,China,South Africa,21.3,Industrial equipment,New,CS,3,,2017,24.01312,-30.67663
+188190,2013,Hong Kong,Ethiopia,14.7,Communications,New,POE,9,2013,U,38.84044,8.96606
+188307,2013,China,Zimbabwe,6.4,Communications,New,POE,1,U,2013,31.05171,-17.83127
+188589,2013,China,Ghana,9.4,Communications,New,POE,7,,U,-1.02319,7.94653
+188720,2013,China,Algeria,63.8,Automotive OEM,New,CS,3,,U,-1.318,34.88841
+188874,2013,China,Algeria,7,Communications,New,POE,1,2013,U,3.05876,36.75377
+191169,2013,China,Ethiopia,5.23,Plastics,New,POE,3,,2013,38.75776,8.9806
+191692,2013,Hong Kong,Ghana,36.9,Consumer products,New,POE,1,U,2013,-0.20644,5.54494
+191694,2013,Hong Kong,Ghana,16.3,Consumer products,New,POE,7,,U,-1.02319,7.94653
+191971,2013,China,Angola,4,Automotive OEM,New,PS,1,U,2013,13.39787,-8.98423
+192535,2014,China,Ghana,162.2,Chemicals,New,POE,1,2013,2015,-0.34356,5.53969
+192536,2014,China,Ghana,864.9,Real estate,New,POE,1,2014,C-2017,-0.34619,5.53469
+193064,2013,Hong Kong,Rwanda,4.4,Consumer products,New,POE,1,U,2013,30.0621,-1.9536
+193257,2014,China,South Africa,16.1,Electronic components,New,POE,9,2013,2014,25.63219,-33.78794
+193319,2014,China,South Africa,2.9,Electronic components,New,POE,1,U,2014,28.12629,-25.99918
+194086,2014,China,South Africa,471.5,Building materials,Expansion,POE,1,U,2012,28.69606,-25.70756
+195061,2014,Hong Kong,South Africa,6.8,Business services,New,POE,1,U,2014,28.03219,-26.14919
+197335,2014,China,South Africa,6.4,Communications,New,POE,1,U,2014,28.06906,-26.13169
+197448,2014,Hong Kong,South Africa,28.3,Real estate,New,POE,1,U,2014,18.46519,-33.97669
+197449,2014,Hong Kong,South Africa,28.3,Real estate,New,POE,1,U,2014,28.04569,-26.10544
+198181,2014,China,Zimbabwe,250,Renewable energy,New,POE,7,,U,29.15486,-19.01544
+198487,2014,China,South Africa,11.8,Electronic components,New,POE,9,2014,2014,25.67171,-33.79793
+199637,2013,China,Republic of the Congo,55.6,Minerals,New,POE,3,,U,15.00461,-1.98547
+202847,2013,China,South Africa,13.69,Electronic components,New,POE,3,,2015,18.42406,-33.92487
+204761,2014,China,Gabon,22.2,"Coal, oil & gas",New,CS,3,,2014,8.75913,-0.7351
+204979,2014,China,South Africa,794.832,Automotive OEM,New,PS,1,2014,2018,25.65431,-33.81394
+205463,2014,China,South Africa,60.6,Non-automotive transport OEM,New,CS,1,2014,2015,28.05656,-26.09794
+205941,2014,China,Uganda,22.2,"Coal, oil & gas",New,CS,1,U,2014,31.35119,1.43269
+205942,2014,China,Cameroon,6.4,Communications,New,POE,1,U,2014,9.70356,4.02256
+206113,2014,China,Kenya,80,Communications,New,POE,1,2014,2015,36.82195,-1.29207
+206503,2014,China,Rwanda,11.3,Textiles,New,POE,1,2014,2014,30.05868,-1.94432
+206903,2014,China,South Africa,11.5,Industrial equipment,New,PS,1,U,2014,28.04731,-26.2041
+206967,2009,Hong Kong,South Africa,1.3,Business machines & equipment,New,POE,1,U,2009,28.14019,-25.94944
+207411,2014,China,South Africa,2.9,Electronic components,New,POE,1,2010,2014,28.00919,-26.00294
+207418,2014,China,Morocco,150,Metals,New,PS,9,2014,U,-5.90919,35.71544
+207677,2014,China,South Africa,7.523,Electronic components,New,POE,1,2013,2014,18.53994,-33.93706
+208360,2014,China,Morocco,11,Financial services,New,CS,1,U,2014,-7.63569,33.59119
+209503,2014,China,Kenya,2.2611,Food & tobacco,Expansion,PS,1,2014,2015,36.85756,-1.30881
+210307,2014,China,Morocco,2000,Renewable energy,New,PS,7,,U,-7.09262,31.7917
+210816,2014,China,South Africa,76.8,Metals,New,PS,7,,U,22.93751,-30.55948
+210948,2014,China,Kenya,6.4,Communications,New,POE,1,U,2014,36.82606,-1.28419
+211047,2012,China,South Africa,116.3,Automotive OEM,New,CS,7,,2012,22.93751,-30.55948
+211048,2012,China,Ethiopia,94.5,Automotive OEM,New,CS,7,,2012,40.48967,9.145
+211087,2014,China,Ghana,100,Automotive OEM,New,POE,7,,U,-1.02319,7.94653
+211776,2014,China,Ethiopia,500,Textiles,New,POE,3,,U,38.75776,8.9806
+211816,2014,China,Nigeria,1300,"Coal, oil & gas",New,CS,1,2014,2017,3.43571,6.43435
+213738,2014,China,South Africa,10.8,Electronic components,New,POE,3,,2014,28.22927,-25.74787
+215097,2014,China,Ethiopia,22.2,"Coal, oil & gas",New,CS,1,U,2014,38.78631,8.99756
+217499,2013,China,South Africa,3.033,Metals,New,POE,3,,2014,18.48696,-33.50627
+217839,2014,China,Cameroon,6.4,Communications,New,POE,1,U,2014,11.48906,3.84131
+218118,2014,China,Tanzania,18.1,Aerospace,New,CS,3,,2014,39.20833,-6.79235
+218120,2014,China,Tanzania,35.2,Aerospace,New,CS,7,,U,34.88882,-6.36903
+218122,2014,China,Tanzania,22.1,Aerospace,New,CS,1,2014,2015,39.23381,-6.84919
+218246,2008,China,South Africa,2.9,Electronic components,New,POE,1,U,2008,28.36957,-26.15109
+218458,2014,China,Nigeria,94.5,Automotive OEM,New,LS,1,2014,2016,3.37594,6.58619
+219914,2015,China,Democratic Republic of Congo,110,Metals,New,CS,3,,U,26.73786,-10.98841
+222182,2015,China,Kenya,11,Financial services,New,CS,1,2015,2016,36.81531,-1.30031
+224324,2015,China,Ethiopia,15,Textiles,New,POE,3,,U,38.62676,8.91124
+225113,2015,China,South Africa,10.8,Electronic components,New,POE,3,,2015,18.42406,-33.92487
+225754,2015,China,Kenya,178.9,Metals,New,CS,3,,U,36.9785,-1.45772
+225759,2015,China,Nigeria,498.2,Building materials,New,POE,7,,2016,8.67528,9.082
+225773,2015,China,Mauritius,2.9,Electronic components,New,POE,7,,U,57.55215,-20.3484
+225857,2015,Hong Kong,Morocco,5,Food & tobacco,New,POE,7,,2015,-7.09262,31.7917
+226896,2014,China,South Africa,2.9,Electronic components,New,POE,3,,U,28.04731,-26.2041
+227116,2015,China,Tanzania,10,Food & tobacco,New,POE,7,,U,34.88882,-6.36903
+229051,2013,Hong Kong,Ethiopia,75,Food & tobacco,New,POE,7,,2015,40.48967,9.145
+230027,2015,China,South Africa,22.2,Consumer electronics,New,LS,1,U,2015,18.52119,-33.88506
+230318,2015,China,Morocco,11,Financial services,New,CS,1,U,2015,-6.83631,33.96844
+231403,2015,Hong Kong,Kenya,68.6,Business machines & equipment,New,POE,3,,U,36.82195,-1.29207
+231869,2015,China,Kenya,14.6,Business services,New,CS,3,,2015,38.54623,-3.39785
+232084,2015,China,Morocco,36.9,Communications,New,POE,1,U,2015,-7.62394,33.60794
+232596,2015,Hong Kong,Kenya,6.8,Business services,New,POE,1,U,2015,36.80275,-1.27094
+233254,2015,China,Senegal,25,Textiles,New,POE,1,2015,2018,-17.22431,14.72931
+233355,2015,Macau,Cape Verde,277.367,Leisure & entertainment,New,POE,3,,2018,-23.51333,14.93305
+234879,2013,Hong Kong,Nigeria,43.6,Automotive OEM,New,POE,1,U,2013,3.34006,6.61481
+234881,2015,Hong Kong,Nigeria,94.5,Automotive OEM,New,POE,1,U,2015,3.34006,6.61481
+235055,2015,Hong Kong,Tunisia,11,Financial services,New,POE,1,U,2015,10.61431,36.39694
+235410,2015,China,Nigeria,50,Metals,New,POE,9,2015,2017,3.95881,6.43619
+235819,2015,China,Ghana,30.8,Renewable energy,New,POE,1,2015,2016,-0.20356,5.61444
+236019,2015,China,South Africa,6.8,Business services,New,CS,1,U,2015,18.52094,-33.88556
+236912,2015,China,South Africa,11,Financial services,New,CS,1,U,2015,18.42231,-33.91694
+237574,2014,China,South Africa,6400,Real estate,New,POE,3,,U,28.14445,-26.088
+237944,2015,China,Liberia,178.9,Metals,New,CS,3,,U,-10.35377,6.80183
+238688,2015,China,Namibia,31.1,Pharmaceuticals,New,POE,3,,U,16.32872,-17.48503
+238860,2015,China,Cameroon,150,Communications,New,CS,6,,2018,9.91019,2.94059
+239144,2015,China,South Africa,35.2,Aerospace,New,CS,1,2015,2015,22.66569,-32.30081
+239145,2015,China,Republic of the Congo,18.1,Aerospace,New,CS,3,,2018,15.28969,-4.27131
+239147,2015,China,Kenya,22.1,Aerospace,New,CS,7,,U,37.90619,-0.02356
+239149,2015,China,Zimbabwe,22.1,Aerospace,New,CS,7,,U,29.15486,-19.01544
+239151,2015,China,Republic of the Congo,22.1,Aerospace,New,CS,7,,2018,15.82766,-0.22802
+239490,2015,China,Kenya,39.27,Real estate,New,CS,1,2015,2017,36.79869,-1.27306
+239493,2015,China,Kenya,196.37,Real estate,New,CS,1,2015,C-2015,36.80856,-1.27056
+239558,2013,China,Nigeria,20.1,Industrial equipment,New,CS,3,,C-2015,6.2429,7.56142
+239562,2013,China,Nigeria,57,Electronic components,New,CS,7,,U,8.67528,9.082
+239564,2013,China,Nigeria,57,Industrial equipment,New,CS,3,,C-2015,6.2429,7.56142
+239644,2015,China,South Africa,2.9,Electronic components,New,CS,1,U,2015,28.07294,-26.12494
+240704,2015,China,Liberia,864.9,Real estate,New,CS,3,,U,-10.35377,6.80183
+241512,2015,China,South Africa,10.419,Electronic components,New,POE,1,2013,2015,31.11956,-29.60131
+242013,2015,China,Algeria,2.9,Industrial equipment,New,PS,3,,2016,3.03384,36.734
+242477,2015,China,South Africa,10,Textiles,New,POE,1,U,2015,28.10894,-26.20594
+243177,2016,China,Egypt,558,"Coal, oil & gas",New,CS,2,2016,U,34.22006,26.20469
+243179,2016,China,Egypt,558,"Coal, oil & gas",New,PS,7,,U,-77.40749,43.06423
+243346,2016,China,Nigeria,94.5,Automotive OEM,New,PS,3,,U,8.3417,4.97572
+243347,2016,China,Nigeria,6.1,Automotive OEM,New,PS,4,,U,8.66006,6.16703
+243350,2016,China,Guinea Bissau,50,Food & tobacco,New,U,3,,U,-15.75859,11.82947
+243417,2016,China,Tunisia,6.4,Communications,New,POE  ,1,U,2016,10.76194,34.74494
+244121,2016,China,Egypt,48.2,Industrial equipment,New,POE,1,2016,2016,32.31694,29.67119
+244258,2016,China,Algeria,3300,Warehousing,New,CS,3,,C-2017,2.25969,36.62219
+244893,2016,China,Democratic Republic of Congo,183,Metals,New,CS,3,,U,26.59637,-10.87787
+244894,2016,China,Democratic Republic of Congo,183,Metals,New,CS,3,,C-2017,25.50889,-10.72753
+245437,2016,China,Algeria,128,Automotive OEM,New,PS,3,,2018,-1.14544,35.30456
+245509,2016,China,Ghana,30,Renewable energy,New,POE,3,,2016,-0.62989,5.36223
+245571,2016,China,Tunisia,60.6,Non-automotive transport OEM,New,CS,7,,2016,9.5375,33.88692
+248075,2016,China,South Africa,18.2,Automotive components,New,PS,1,2016,U,28.25431,-25.90531
+248076,2016,China,Democratic Republic of Congo,18.2,Automotive components,New,PS,7,,U,21.75866,-4.03833
+249781,2016,China,Ethiopia,350,Textiles,New,POE,9,2016,2018,39.25833,8.52635
+249881,2016,China,Uganda,2.3,Consumer products,New,POE,1,U,2016,32.61256,0.31969
+250405,2016,Hong Kong,Nigeria,11.3,Textiles,New,POE,3,,2016,9.16222,12.15399
+250412,2016,Hong Kong,Nigeria,122.2,Real estate,New,POE,3,,U,9.16222,12.15399
+250416,2016,Hong Kong,Nigeria,55.7,Food & tobacco,New,POE,3,,U,9.4895,12.42032
+250418,2016,Hong Kong,Nigeria,55.7,Food & tobacco,New,POE,3,,C-2018,9.4895,12.42032
+251109,2016,China,Mozambique,4000,Transportation,New,CS,6,,U,35.52956,-18.66569
+251111,2016,China,South Africa,2000,Transportation,New,CS,6,,U,28.11227,-26.27076
+251175,2013,China,Djibouti,46.15,Communications,New,CS,6,,2013,43.14565,11.57208
+251178,2013,China,Egypt,92.3,Communications,New,CS,6,,2017,-77.40749,43.06423
+251446,2016,China,Zimbabwe,0.03,Communications,New,POE,1,2016,2016,31.10794,-17.78931
+253318,2016,China,Ghana,36.9,Communications,New,POE,1,U,2016,-0.18281,5.57369
+253864,2016,China,Egypt,2.4,Consumer electronics,New,LS,7,,U,-77.40749,43.06423
+254026,2016,China,Egypt,6.4,Communications,New,POE,1,U,2016,31.33881,30.07419
+254779,2016,China,Egypt,27.2,Consumer electronics,New,POE,9,2016,2018,29.69646,30.93241
+255212,2016,Hong Kong,Djibouti,197.1,Warehousing,New,CS,3,,2017,43.14256,11.60869
+255576,2016,China,Egypt,58.6,Ceramics & glass,Expansion,CS,1,U,2016,32.31231,29.67181
+255608,2016,China,South Africa,15.8,Electronic components,New,POE,1,U,2016,28.28062,-25.78361
+255966,2016,China,Ethiopia,80,Pharmaceuticals,New,POE,3,,2017,37.97846,11.34942
+256217,2016,China,Morocco,411,Real estate,New,POE,3,,U,-5.83395,35.75947
+256429,2016,China,Ethiopia,864.9,Real estate,New,POE,3,,C-2018,39.25833,8.52635
+256432,2016,China,Ethiopia,11.8,Electronic components,New,POE,9,2016,U,39.30606,8.51306
+256517,2016,China,Togo,60.6,Non-automotive transport OEM,New,CS,3,,2016,1.1689,6.94632
+256614,2016,China,Egypt,250,Business services,New,POE,3,,U,30.93819,31.11131
+256615,2016,China,Egypt,250,Business services,New,POE,3,,U,31.14659,29.98917
+256616,2016,China,Egypt,250,Business services,New,POE,3,,U,30.84285,29.3084
+256619,2016,China,Egypt,250,Business services,New,POE,3,,U,30.84285,29.3084
+256929,2016,Hong Kong,Nigeria,1734.3,"Coal, oil & gas",New,POE,4,,U,7.87216,4.92999
+257727,2016,China,Morocco,15,Automotive components,New,PS,9,2016,2017,-6.37756,34.30594
+258070,2016,China,South Africa,0.5,Communications,New,POE,1,U,2016,28.06906,-26.13169
+258197,2016,China,Egypt,9.4,Communications,New,POE,1,2016,U,31.34556,30.05719
+258661,2016,China,South Africa,11,Financial services,New,CS,1,U,2016,28.06281,-26.10106
+258764,2016,China,Morocco,102.09,Automotive OEM,New,POE,3,,U,-5.83395,35.75947
+258922,2016,China,Egypt,200.3,Renewable energy,New,POE,1,2016,2019,32.7171,24.44919
+259189,2016,China,Republic of the Congo,6.8,Business services,New,CS,3,,U,15.24289,-4.26336
+259191,2016,China,Mozambique,6.8,Business services,New,CS,3,,2016,32.60696,-25.95685
+260231,2016,China,Ghana,11.8,Electronic components,New,POE,1,U,2016,0.11675,5.72471
+260258,2016,China,Morocco,56.7019,Electronic components,New,POE,3,,U,-5.83395,35.75947
+260261,2016,China,Morocco,10.3157,Industrial equipment,New,POE,7,,U,-7.09262,31.7917
+260627,2016,China,Kenya,98.65,Building materials,New,PS,1,2016,2017,36.97981,-1.43269
+260628,2016,China,Kenya,178.9,Metals,New,PS,3,,C-2017,39.90933,-3.51065
+261343,2016,China,South Africa,33.7,Food & tobacco,New,POE,1,U,2016,28.09781,-25.83806
+262190,2016,China,South Africa,6.4,Communications,New,POE,1,U,2016,28.06906,-26.13169
+262350,2016,China,Ethiopia,138,Textiles,New,POE,1,U,2016,38.75776,8.9806
+262359,2016,China,Kenya,2.9,Electronic components,New,CS,1,2016,2016,36.80606,-1.26417
+262463,2006,China,South Africa,1.7,Textiles,New,POE,1,U,2006,18.41635,-33.91321
+262531,2016,China,Democratic Republic of Congo,60,Metals,New,POE,3,,2018,25.48244,-10.71431
+262823,2016,China,Egypt,11.8,Electronic components,New,POE,9,2016,2019,32.72006,24.42844
+262867,2016,China,Mauritius,11,Financial services,New,CS,1,U,2016,57.50006,-20.16156
+263310,2016,China,Egypt,20000,Real estate,New,POE,3,,U,31.23571,30.04442
+263458,2016,China,Zambia,150,Communications,New,POE,1,2016,2017,28.30731,-15.42394
+263607,2016,China,Nigeria,6,Communications,New,POE,1,U,2016,3.38856,6.51506
+264726,2016,Hong Kong,Ethiopia,10,Textiles,New,POE,9,2016,2017,38.49294,7.06681
+265101,2016,China,Nigeria,13.8,Business services,New,CS,1,U,2016,7.42794,9.07156
+265188,2016,China,Ethiopia,85,Pharmaceuticals,New,POE,9,2016,2018,38.88294,8.81706
+265748,2016,China,Sierra Leone,700,Metals,New,PS,3,,U,-11.79796,8.73894
+266103,2016,China,South Africa,11,Financial services,New,CS,3,,U,28.04731,-26.2041
+268159,2016,China,Senegal,9.7,Communications,New,POE,1,U,2016,-17.51781,14.74081
+268162,2016,China,Cote d'Ivoire,9.7,Communications,New,POE,1,U,2016,-4.00826,5.35995
+268604,2016,China,Egypt,9.4,Communications,New,POE,9,2016,U,29.57106,30.85694
+269587,2016,China,Cote d'Ivoire,6.8,Business services,New,CS,3,,2016,-4.23334,5.88273
+271724,2017,China,Egypt,100,Metals,New,POE,1,2017,2018,32.45231,29.90481
+272366,2017,China,Nigeria,100,Automotive OEM,New,PS,1,2017,2017,3.33594,6.61119
+272981,2017,China,Egypt,11.8,Electronic components,New,POE,1,2016,2017,31.01774,29.97192
+273175,2017,China,Algeria,7.5,Communications,New,POE,1,U,2017,3.14169,36.71894
+273176,2017,China,Algeria,7.5,Communications,New,POE,1,U,2017,-0.59206,35.72244
+273178,2017,China,Algeria,7.5,Communications,New,POE,1,U,2017,4.05219,36.69956
+273179,2017,China,Algeria,7.5,Communications,New,POE,1,U,2017,7.76306,36.91919
+273180,2017,China,Algeria,7.5,Communications,New,POE,1,U,2017,6.60506,36.35419
+273484,2017,China,Egypt,6.4,Communications,New,POE,1,U,2017,31.01556,29.97306
+274375,2017,Hong Kong,Kenya,5.8,Software & IT services,New,POE,1,U,2017,36.88531,-1.26681
+274726,2017,China,South Africa,60.5,Communications,New,POE,1,U,2017,28.09031,-26.06456
+275416,2017,China,Egypt,58.6,Ceramics & glass,Expansion,CS,1,2017,C-2016,32.31231,29.67181
+275446,2006,China,South Africa,1.3,Ceramics & glass,New,CS,1,2005,2006,18.49062,-33.59207
+275828,2017,China,Angola,11,Financial services,New,CS,1,2017,2017,13.19056,-8.92306
+277014,2017,Hong Kong,South Africa,5.8,Real estate,New,CS,1,U,2017,28.05656,-26.09794
+277097,2017,China,Zimbabwe,21.7,Automotive OEM,New,CS,1,2017,2017,28.58544,-20.16131
+277134,2017,China,Djibouti,11,Financial services,New,POE,1,U,2017,43.16444,11.56719
+277144,2017,China,Nigeria,1500,Textiles,New,POE,3,,U,7.37327,5.12159
+277365,2017,China,Egypt,40,Food & tobacco,New,LS,3,,U,31.09938,29.06613
+277460,2017,China,Nigeria,19.8,Aerospace,New,POE,3,,U,7.39857,9.07648
+277461,2017,China,Nigeria,18.1,Aerospace,New,POE,3,,U,7.39857,9.07648
+277745,2017,China,Tunisia,155.5,Renewable energy,New,CS,1,U,2017,10.17981,36.84244
+277765,2017,China,Kenya,22.7,Metals,New,POE,9,2017,2019,36.9017,-1.15728
+277934,2017,China,Ethiopia,138,Textiles,New,POE,9,2015,2018,38.49291,7.06687
+278262,2017,China,Kenya,7.5,Communications,New,POE,1,U,2017,36.81906,-1.28506
+278263,2017,China,Kenya,6.4,Communications,New,POE,1,U,2017,36.81906,-1.28506
+279180,2017,China,Zimbabwe,6,Chemicals,New,CS,7,,U,29.15486,-19.01544
+279397,2017,China,Morocco,250,Rubber,New,CS,3,,U,-6.58902,34.25405
+279620,2017,China,Mozambique,4.2,Real estate,New,CS,3,,2018,32.55069,-25.95694
+279630,2017,China,Mozambique,3,Real estate,New,PS,3,,U,32.67436,-25.73938
+279794,2017,China,Ethiopia,1.4954,Communications,New,POE,1,2017,2019,38.76906,8.98819
+280360,2017,China,Liberia,200,Metals,New,POE,3,,U,-9.36731,6.8295
+280496,2017,China,Kenya,1984.12,"Coal, oil & gas",New,CS,1,2015,C-2017,40.90331,-2.15356
+280898,2017,China,Nigeria,600,Textiles,New,POE,3,,U,8.59194,12.00219
+281323,2017,China,Zambia,548,Building materials,New,CS,3,,U,28.64981,-12.99064
+282892,2017,China,Guinea,500,Metals,New,CS,3,,C-2018,-14.03931,10.18081
+283442,2017,China,Egypt,6.4,Communications,New,POE,1,U,2017,31.30794,30.07631
+284127,2017,China,Rwanda,1,Textiles,New,POE,3,,U,30.10443,-1.97058
+284750,2017,Hong Kong,Kenya,7.7,Leisure & entertainment,New,POE,1,U,2017,36.88531,-1.26681
+286888,2017,China,Tanzania,25,Medical devices,New,POE,3,,U,39.20833,-6.79235
+290984,2017,China,Ethiopia,220,Textiles,New,LS,1,2017,2019,41.88219,9.60144
+291520,2017,China,Tanzania,1000,Building materials,New,CS,3,,U,39.10232,-5.08888
+291575,2017,China,Egypt,8.4,Communications,New,POE,1,U,2017,30.99544,30.79494
+291578,2017,China,Egypt,8.4,Communications,New,POE,1,U,2017,32.27606,30.59244
+291664,2017,China,Kenya,7,Communications,Co-location,POE,1,U,2017,36.77069,-1.28056
+292185,2017,China,Ethiopia,9.08,Automotive OEM,Expansion,PS,3,,2017,38.75776,8.9806
+292197,2017,China,South Africa,27.2,Consumer electronics,Expansion,LS,1,U,2017,18.48844,-33.58094
+292223,2017,China,Morocco,66,Automotive OEM,New,POE,9,2017,U,-5.81319,35.75594
+292226,2017,China,Morocco,39.2,Electronic components,Co-location,POE,3,,U,-5.83395,35.75947
+292227,2017,China,Morocco,66,Automotive OEM,Co-location,POE,3,,U,-5.83395,35.75947
+292229,2017,China,Morocco,81.4,Non-automotive transport OEM,Co-location,POE,3,,U,-5.83395,35.75947
+292424,2017,China,Egypt,60.5,Communications,New,POE,9,U,2017,31.2357,30.04441
+293439,2018,Hong Kong,Ethiopia,231.7,Renewable energy,New,POE,7,,U,40.48967,9.145
+293686,2018,China,Kenya,10,Business machines & equipment,New,POE,7,,U,37.90619,-0.02356
+293837,2018,China,Kenya,5,Industrial equipment,New,LS,1,U,2018,36.88381,-1.33019
+294009,2018,China,Malawi,864.9,Real estate,New,POE,3,,C-2018,35.02643,-15.79643
+294012,2018,China,Malawi,37.5,Real estate,New,POE,1,2018,U,33.79906,-13.96106
+294013,2018,China,Malawi,37.5,Real estate,New,POE,1,2018,U,33.80019,-13.95944
+294029,2018,China,Egypt,60,Ceramics & glass,Expansion,CS,1,2018,U,32.28081,29.63726
+294033,2018,China,Egypt,32.9,Ceramics & glass,New,CS,9,2018,U,32.30456,29.71344
+298126,2017,China,Mozambique,864.9,Real estate,New,POE,1,U,2017,32.60744,-25.95619
+298277,2018,China,Morocco,25.4,Automotive components,New,CS,1,2018,2019,-6.40306,34.30056
+298371,2018,China,Democratic Republic of Congo,216,Metals,New,POE,3,,U,25.50889,-10.72753
+298423,2018,China,Algeria,7.3,Communications,New,POE,1,2018,2018,3.05406,36.73694
+298627,2017,China,Kenya,5.8,Real estate,New,CS,1,2017,C-2017,36.80869,-1.27081
+298885,2018,China,Egypt,15,Electronic components,New,POE,3,,2018,31.74137,30.14221
+299058,2018,China,Zimbabwe,80,Metals,Expansion,CS,1,2018,U,29.83356,-18.91256
+299273,2018,China,Uganda,10,Communications,New,CS,7,,U,32.29028,1.37333
+299401,2018,China,Algeria,9.4,Communications,New,POE,3,,2019,3.17546,36.69935
+299929,2018,China,Tunisia,94.5,Automotive OEM,New,CS,7,,U,9.5375,33.88692
+300041,2018,China,Cote d'Ivoire,31.1,Pharmaceuticals,New,POE,7,,U,-5.54708,7.53999
+300269,2018,China,Kenya,6.8,Business services,New,CS,2,U,2018,36.78319,-1.28994
+300667,2018,China,Egypt,45.9,Automotive OEM,New,PS,7,,U,-77.40749,43.06423
+300811,2018,China,Tunisia,0.5,Building materials,New,PS,3,,U,10.18153,36.80649
+301330,2018,China,Democratic Republic of Congo,102.3,Metals,New,POE,3,,U,25.50889,-10.72753
+301610,2018,China,Nigeria,8.4,Communications,New,POE,1,U,2018,3.48056,6.44756
+301784,2018,China,Egypt,45.9,Automotive OEM,New,LS,7,,U,-77.40749,43.06423
+302016,2017,Hong Kong,Namibia,6.5,Minerals,New,POE,3,,2017,17.06575,-22.56088
+304027,2017,China,South Africa,186.2,Renewable energy,New,CS,2,2009,2017,24.08381,-30.71669
+304151,2018,China,Morocco,14.3,Business services,New,CS,1,2018,2018,-8.48806,33.22731
+304152,2018,China,Zambia,6.8,Business services,New,CS,1,2018,2018,28.32969,-15.38794
+304610,2018,China,Gabon,15.8,Wood products,New,POE,3,,2018,11.72676,1.77692
+304640,2018,China,Zambia,26.3,Food & tobacco,New,POE,3,,U,29.04236,-15.8923
+304941,2018,China,Ethiopia,1.96,Textiles,New,PS,9,2018,2018,38.88294,8.81706
+305019,2018,China,Mali,54.02,Pharmaceuticals,New,POE,3,,2015,-7.94022,12.3992
+305325,2018,China,Kenya,94.3,Real estate,New,PS,3,,C-2018,39.7374,-3.98943
+305817,2018,China,Zimbabwe,178.9,Metals,New,CS,1,2018,U,29.83356,-18.91256
+305818,2018,China,Zimbabwe,558,"Coal, oil & gas",New,CS,1,2018,U,29.83356,-18.91256
+305851,2018,Hong Kong,Democratic Republic of Congo,53,Metals,New,POE,7,,U,21.75866,-4.03833
+305853,2018,Hong Kong,Ghana,53,Metals,New,POE,7,,U,-1.02319,7.94653
+306000,2018,China,Morocco,23.5,Electronic components,New,POE,3,,U,-5.66531,35.65769
+306010,2018,China,Guinea,1160,Metals,New,POE,3,,U,-13.08331,11.13331
+306492,2018,Hong Kong,Uganda,11,Financial services,New,POE,7,,2018,32.29028,1.37333
+307836,2018,China,Ethiopia,13.92,Metals,New,POE,3,,U,39.533,9.67666
+307857,2018,China,Guinea,580,Metals,New,POE,7,,U,-9.69665,9.94559
+307858,2018,China,Guinea,580,"Coal, oil & gas",New,POE,7,,U,-9.69665,9.94559
+307860,2018,China,Guinea,580,Metals,New,POE,7,,U,-9.69665,9.94559
+307961,2018,China,Nigeria,94.5,Automotive OEM,New,POE,3,,U,7.01759,6.01229
+309420,2018,China,Liberia,55.6,Consumer products,New,POE,7,,U,-9.4295,6.42805
+309826,2018,China,South Africa,55.4,Communications,New,POE,3,,C-2018,28.24115,-26.13667
+310026,2018,China,Nigeria,3000,"Coal, oil & gas",Expansion,CS,7,,U,8.67528,9.082
+310262,2018,Hong Kong,Morocco,203.508,Metals,New,CS,9,2018,2019,-6.37756,34.30594
+310263,2018,Hong Kong,Morocco,203.508,Metals,New,CS,9,2018,U,-5.81319,35.75594
+310272,2018,China,South Africa,7.5,Communications,New,CS,1,2017,2018,28.05931,-26.04894
+310759,2018,Hong Kong,Egypt,9.4,Communications,New,POE,9,2018,U,29.69646,30.93241
+311508,2018,China,Egypt,100,Metals,New,CS,7,,U,-77.40749,43.06423
+311533,2018,China,South Africa,14,Electronic components,New,POE,9,2016,2018,27.85344,-33.04844
+313026,2018,China,Tunisia,94.5,Automotive OEM,New,PS,7,,U,9.5375,33.88692
+313190,2018,China,Tunisia,94.5,Automotive OEM,New,PS,7,,U,9.5375,33.88692
+313250,2018,China,Ghana,94.5,Automotive OEM,New,PS,7,,U,-1.02319,7.94653
+313253,2018,China,Egypt,830,Real estate,New,POE,9,2018,U,32.28081,29.63726
+313258,2018,China,Egypt,125,Building materials,New,CS,9,2018,C-2018,32.30456,29.71344
+313259,2018,China,Egypt,50,Textiles,New,POE,9,2018,U,32.30456,29.71344
+313359,2018,China,Gabon,209,Renewable energy,New,POE,3,,U,11.55038,0.78229
+313367,2018,China,Ghana,25.5,Business machines & equipment,New,PS,7,,U,-1.02319,7.94653
+313455,2018,China,South Africa,7.5,Communications,New,CS,3,,2018,28.04731,-26.2041
+313515,2018,China,Morocco,55.4,Communications,New,POE,3,,U,-5.83395,35.75947
+313675,2018,China,Nigeria,178,Renewable energy,New,CS,7,,U,8.67528,9.082
+314094,2018,Hong Kong,South Africa,11.9,Textiles,New,POE,1,U,2018,28.04844,-26.26831
+314360,2018,China,South Africa,4.4,Consumer products,New,POE,1,2018,U,28.00481,-26.08794
+314363,2018,China,Nigeria,4.4,Consumer products,New,POE,1,2018,U,7.03944,4.84156
+315217,2018,China,Egypt,7.5,Communications,New,POE,1,2018,U,31.31531,30.08006
+315218,2018,China,Egypt,7.5,Communications,New,POE,1,2018,U,31.34556,30.05719
+316061,2018,China,Ethiopia,148.3,Textiles,New,POE,9,2018,2018,39.30606,8.51306
+317510,2018,China,South Africa,96.5,Communications,New,POE,3,,U,28.04731,-26.2041
+318039,2018,China,Ethiopia,5.3,Real estate,New,CS,3,,2018,38.75776,8.9806
+318238,2018,China,Kenya,25,Ceramics & glass,Expansion,POE,1,2018,U,36.82195,-1.29207
+318251,2018,China,Egypt,450,Renewable energy,New,POE,7,,U,-77.40749,43.06423
+319203,2018,China,Tanzania,72.9,Automotive OEM,New,PS,7,,U,34.88882,-6.36903
+319309,2018,Hong Kong,Algeria,6000,Chemicals,New,CS,3,,U,8.16619,34.65794
+706781,2008,China,Niger,1641.2,"Coal, oil & gas",New,CS,3,,2011,8.98531,13.80181
+988161,2009,China,Egypt,7,Communications,Expansion,POE,1,U,2009,31.01774,29.97192
+1465421,2012,China,Egypt,        NA,Food & tobacco,New,POE,3,,2017,30.2947,30.91382
+1584412,2012,Hong Kong,Ethiopia,        NA,Communications,New,POE,3,,2012,37.09815,6.07403
+1925351,2014,China,Ghana,        NA,Chemicals,New,POE,1,2014,U,-0.26869,5.57906
+1974481,2014,Hong Kong,South Africa,28.3,Real estate,New,POE,1,U,2014,18.52106,-33.88556
+1974491,2014,Hong Kong,South Africa,28.3,Real estate,New,POE,1,U,2014,18.41831,-33.90481
+2065031,2014,China,Rwanda,11.3,Textiles,New,POE,9,2014,2014,30.11274,-1.95788
+2118161,2014,China,Nigeria,        NA,"Coal, oil & gas",New,CS,3,,2017,7.04984,4.81555
+2178391,2014,China,Cameroon,        NA,Communications,New,POE,1,U,2014,11.51031,3.90106
+2320841,2015,China,Morocco,        NA,Communications,New,POE,1,U,2015,-7.64081,33.53719
+2391441,2015,China,South Africa,        NA,Aerospace,New,CS,1,U,2011,22.18819,-33.59831
+2391442,2015,China,South Africa,        NA,Aerospace,New,CS,1,U,2011,22.37769,-34.00294
+2454371,2016,China,Algeria,        NA,Automotive OEM,New,PS,1,2016,2018,3.31294,36.72419
+2540261,2016,China,Egypt,        NA,Communications,New,POE,1,U,2016,31.02256,30.07869
+2602312,2016,China,Ghana,        NA,Electronic components,New,POE,1,U,2016,-0.14381,5.63081
+2621901,2016,China,South Africa,        NA,Communications,New,POE,1,U,U,18.51231,-33.89181
+2634581,2016,China,Zambia,        NA,Communications,New,POE,1,2016,2017,28.31656,-15.38819
+2729812,2017,China,Egypt,        NA,Electronic components,New,POE,1,U,2017,31.01269,30.07381
+2834421,2017,China,Egypt,        NA,Communications,New,POE,1,U,2017,30.97194,30.00631
+2847501,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.43103,-0.71718
+2847502,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,35.26978,0.51428
+2847503,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,34.75186,0.28273
+2847504,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.9158,-1.27739
+2847505,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.82689,-1.28302
+2847506,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.82726,-1.28248
+2847507,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.75237,-1.28227
+2847508,2017,Hong Kong,Kenya,        NA,Leisure & entertainment,New,POE,3,,2017,36.78535,-1.32613
+3046401,2018,China,Zambia,        NA,Food & tobacco,New,POE,1,2018,U,28.44569,-15.38131
+3102631,2018,Hong Kong,Morocco,        NA,Metals,New,CS,9,2018,2019,-6.38392,34.30112
