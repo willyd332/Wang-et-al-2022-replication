@@ -6,32 +6,49 @@ User Name: will
 R Version: 4.1.2 (2021-11-01) 
 Machine: Wills-MBP.attlocal.net x86_64 
 Operating System: Darwin 21.5.0 Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:22 PDT 2022; root:xnu-8020.121.3~4/RELEASE_X86_64 
-Base Packages: stats graphics grDevices utils datasets methods base Other Packages: logr_1.3.3 xtable_1.8-4 Hmisc_4.7-1 Formula_1.2-4 survival_3.2-13 lattice_0.20-45 car_3.1-0 carData_3.0-5 miceadds_3.15-21 mice_3.14.0 forcats_0.5.1 stringr_1.4.1 dplyr_1.0.9 purrr_0.3.4 readr_2.1.2 tidyr_1.2.0 tibble_3.1.6 ggplot2_3.3.6 tidyverse_1.3.1 
-Log Start Time: 2022-11-07 21:32:36 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: stringi_1.7.6 lwgeom_0.2-9 spData_2.2.0 sf_1.0-8 logr_1.3.3 xtable_1.8-4 Hmisc_4.7-1 Formula_1.2-4 survival_3.2-13 lattice_0.20-45 car_3.1-0 carData_3.0-5 miceadds_3.15-21 mice_3.14.0 forcats_0.5.1 stringr_1.4.1 dplyr_1.0.9 purrr_0.3.4 readr_2.1.2 tidyr_1.2.0 tibble_3.1.6 ggplot2_3.3.6 tidyverse_1.3.1 
+Log Start Time: 2022-11-08 20:28:23 
 ========================================================================= 
 
-                                         (1)        (2)        (3)        (4)        (5)        (6)       
- [1,] "Announced"                        "-0.015"   "-0.011"   "-0.019"   "-0.034"   "0.034"    "0.053"   
- [2,] ""                                 "(-0.830)" "(-0.338)" "(-1.350)" "(-1.104)" "(1.683)"  "(1.256)" 
- [3,] "Active"                           "-0.069"   "-0.123"   "-0.038"   "-0.082"   "-0.049"   "-0.097"  
- [4,] ""                                 "(-6.019)" "(-5.316)" "(-4.340)" "(-4.312)" "(-3.744)" "(-3.556)"
- [5,] "Active-Announced"                 "-0.055"   "-0.112"   "-0.019"   "-0.049"   "-0.083"   "-0.150"  
- [6,] "F test: Active=Announced"         "9.485"    "10.732"   "1.863"    "2.387"    "16.265"   "11.856"  
- [7,] "p value"                          "0.002"    "0.001"    "0.172"    "0.122"    "0.000"    "0.001"   
- [8,] "Mean of dependent variable"       "0.425"    "1.201"    "0.250"    "0.857"    "0.596"    "1.609"   
- [9,] "Individual controls"              "Yes"      "Yes"      "Yes"      "Yes"      "Yes"      "Yes"     
-[10,] "Country fixed effects"            "Yes"      "Yes"      "Yes"      "Yes"      "Yes"      "Yes"     
-[11,] "Survey round fixed effects"       "Yes"      "Yes"      "Yes"      "Yes"      "Yes"      "Yes"     
-[12,] "Number of observations"           "35714"    "35714"    "40080"    "40080"    "36650"    "36650"   
-[13,] "Number of countries"              "19"       "19"       "19"       "19"       "19"       "19"      
-[14,] "Number of townships and villages" "4370"     "4370"     "4370"     "4370"     "4370"     "4370"    
-[15,] "Survey rounds"                    "1-7"      "1-7"      "1-7"      "1-7"      "1-7"      "1-7"     
-[16,] "Adjusted R squared"               "0.070"    "0.084"    "0.039"    "0.067"    "0.076"    "0.086"   
+                                         (1)        (2)        (3)       
+ [1,] "Announced"                        "-0.122"   "-0.231"   "-0.058"  
+ [2,] ""                                 "(-3.163)" "(-3.284)" "(-2.171)"
+ [3,] "Active"                           "-0.038"   "-0.052"   "-0.005"  
+ [4,] ""                                 "(-1.867)" "(-1.346)" "(-0.326)"
+ [5,] "Active-Announced"                 "0.084"    "0.179"    "0.053"   
+ [6,] "F test: Active=Announced"         "4.122"    "5.283"    "3.672"   
+ [7,] "p value"                          "0.042"    "0.022"    "0.055"   
+ [8,] "Mean of dependent variable"       "0.389"    "1.151"    "0.255"   
+ [9,] "Individual controls"              "Yes"      "Yes"      "Yes"     
+[10,] "Country fixed effects"            "Yes"      "Yes"      "Yes"     
+[11,] "Survey round fixed effects"       "Yes"      "Yes"      "Yes"     
+[12,] "Number of observations"           "10984"    "10984"    "11671"   
+[13,] "Number of countries"              "8"        "8"        "8"       
+[14,] "Number of townships and villages" "1078"     "1078"     "1078"    
+[15,] "Survey rounds"                    "1-7"      "1-7"      "1-7"     
+[16,] "Adjusted R squared"               "0.079"    "0.110"    "0.054"   
+      (4)        (5)        (6)       
+ [1,] "-0.176"   "-0.147"   "-0.383"  
+ [2,] "(-3.573)" "(-3.643)" "(-4.327)"
+ [3,] "0.000"    "-0.032"   "-0.064"  
+ [4,] "(0.014)"  "(-1.413)" "(-1.386)"
+ [5,] "0.176"    "0.115"    "0.320"   
+ [6,] "10.702"   "6.889"    "11.014"  
+ [7,] "0.001"    "0.009"    "0.001"   
+ [8,] "0.886"    "0.569"    "1.532"   
+ [9,] "Yes"      "Yes"      "Yes"     
+[10,] "Yes"      "Yes"      "Yes"     
+[11,] "Yes"      "Yes"      "Yes"     
+[12,] "11671"    "10546"    "10546"   
+[13,] "8"        "8"        "8"       
+[14,] "1078"     "1078"     "1078"    
+[15,] "1-7"      "1-7"      "1-7"     
+[16,] "0.115"    "0.093"    "0.110"   
 
-NOTE: Log Print Time:  2022-11-07 21:32:36 
-NOTE: Elapsed Time: 0.00227499008178711 secs 
+NOTE: Log Print Time:  2022-11-08 20:28:23 
+NOTE: Elapsed Time: 0.00278902053833008 secs 
 
 ========================================================================= 
-Log End Time: 2022-11-07 21:32:36 
+Log End Time: 2022-11-08 20:28:23 
 Log Elapsed Time: 0 00:00:00 
 ========================================================================= 

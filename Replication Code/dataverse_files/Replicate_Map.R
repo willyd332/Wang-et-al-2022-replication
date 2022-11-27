@@ -19,6 +19,16 @@ library(tidyverse)
 ### Read FDI data into R
 fdi<-read_csv("FDIProjGeocode.csv")
 
+
+aid_11 <- c("Botswana", "Ghana", "Kenya", "Madagascar", "Mozambique", "Nigeria", "Senegal", "South Africa", "Tanzania", "Uganda", "Zimbabwe")
+nonaid_10 <- c("Algeria", "Cameroon", "Cote d'Ivoire", "Egypt", "Malawi", "Mauritius", "Morocco", "Namibia", "Tunisia", "Zambia")
+
+north_africa <- c("Algeria","Egypt","Morocco","Tunisia")
+
+fdi <- subset(fdi, Destination_country %in% north_africa)
+
+nrow(fdi)
+
 ### Projects that are precisely coded, from mainland China, and new
 fdi_precise<-fdi %>% filter(Precision_final %in% c(1,2,9),
                             Source_country=="China",
@@ -166,7 +176,7 @@ plot(world_africa[0],lwd=2,reset=F)
 plot(afrob_cluster_sf[0],add=T,pch=16,cex=0.5,col="grey80",alpha=0.5)
 
 ### plot the aid projects on the map
-plot(aid_ODA_sf[0],add=T,pch=1,cex=1.2,col="black",lwd=2)
+# plot(aid_ODA_sf[0],add=T,pch=1,cex=1.2,col="black",lwd=2)
 
 ### plot the FDI Projects on the map
 plot(fdi_precise_sf[0],add=T,pch=2,cex=1.2,col="black",lwd=2)
