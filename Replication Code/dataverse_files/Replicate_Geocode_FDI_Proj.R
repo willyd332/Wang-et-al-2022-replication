@@ -640,6 +640,6 @@ for (country in all_countries) {
   names(data_project_FDI)<-c("50km","200km")
   
   # Save the data -----------------------------------------------------------
-  save(data_project_FDI,file=paste(country,"_data_project_FDI.RData"))
+  save(data_project_FDI,file=paste(country,"_data_project_FDI.RData", sep=""))
  
 }
