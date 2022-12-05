@@ -24,10 +24,9 @@ options(scipen=999)
 
 all_countries <- c("Botswana", "Ghana", "Kenya", "Madagascar", "Mozambique", "Nigeria", "Senegal", "South Africa", "Tanzania", "Uganda", "Zimbabwe", "Algeria", "Cameroon", "Cote d'Ivoire", "Egypt", "Malawi", "Mauritius", "Morocco", "Namibia", "Tunisia", "Zambia")
 
+# for (country in all_countries) {
 
-as.factor(data_project_FDI[[1]]$FDIProj)
-
-for (country in all_countries) {
+country <- "Botswana"
 
 # Plot themes --------------------------------------------------------------
 
@@ -64,8 +63,8 @@ my_theme_2<-theme_bw()+
         strip.text = element_text(colour = 'black',size=11))
 
 # Load data_respno_FDI and data_respno_aid --------------------------------
-load(paste(country,"_data_respno_FDI.RData", sep=""))
 load("data_respno_aid.RData")
+load(paste(country,"_data_respno_FDI.RData", sep = ""))
 
 # FDI Dataset: drop those not close to any projects -----------------------
 data_close_fdi<-list()
@@ -78,16 +77,12 @@ for (j in 1:length(data_respno_FDI)){
     subset(select=c(country,resp_status)) %>% 
     table()
   
-  if (length(colnames(tab)) < 3){
-    if ("Eventual" %in% colnames(tab)) { 
-      drop <-(tab[,1]==0 | tab[,"Eventual"]==0)
-    } else {
-      drop<-TRUE
-    }
+  if (ncol(tab) < 3){
+    drop <- TRUE
   } else {
-    drop<-((tab[,1]==0 & tab[,2]==0) | tab[,3]==0)
+    drop<-((tab[,1]==0 & tab[,2]==0)|tab[,3]==0)    
   }
-  
+
   country_drop<-rownames(tab)[drop]
   
   # filter the dataset: drop the countries that have no variation
@@ -132,21 +127,24 @@ for (j in 1:length(data_close_fdi)){
   
 }
 
+
+
+
 # Create announced and active within 1, 2, and 3 years --------------------
 
 ### Create variables of announced and active by year for FDI full data
 data_close_fdi_time<-data_close_fdi[[1]] %>%
-    filter(!(D_close_ancmt_fdi==1 & Duration_ancmt_min>5),
-           !(D_close_active_fdi==1 & Duration_active_min>5)) %>% 
-    mutate(Ancmt_1=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min==1),1,0),
-           Ancmt_2=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min==2),1,0),
-           Ancmt_3=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min>=3),1,0),
-           Active_1=ifelse((D_close_active_fdi==1 & Duration_active_min==1),1,0),
-           Active_2=ifelse((D_close_active_fdi==1 & Duration_active_min==2),1,0),
-           Active_3=ifelse((D_close_active_fdi==1 & Duration_active_min>=3),1,0),
-           Eventual=ifelse(D_close_eventual_fdi==1,1,0)
-    )
-  
+  filter(!(D_close_ancmt_fdi==1 & Duration_ancmt_min>5),
+         !(D_close_active_fdi==1 & Duration_active_min>5)) %>% 
+  mutate(Ancmt_1=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min==1),1,0),
+         Ancmt_2=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min==2),1,0),
+         Ancmt_3=ifelse((D_close_ancmt_fdi==1 & Duration_ancmt_min>=3),1,0),
+         Active_1=ifelse((D_close_active_fdi==1 & Duration_active_min==1),1,0),
+         Active_2=ifelse((D_close_active_fdi==1 & Duration_active_min==2),1,0),
+         Active_3=ifelse((D_close_active_fdi==1 & Duration_active_min>=3),1,0),
+         Eventual=ifelse(D_close_eventual_fdi==1,1,0)
+  )
+
 ### Create variables of announced and active by year for FDI subcountry data
 data_close_fdi_sub_time<-data_close_fdi_sub[[1]] %>% 
   filter(!(D_close_ancmt_fdi==1 & Duration_ancmt_min>5),
@@ -177,8 +175,6 @@ data_close_aid_sub_time<-data_close_aid_sub[[1]] %>%
 # Function: model with country and survey FE ------------------------------
 func_model_FE<-function(d,dv){
   
-  print("d")
-  
   m<-lm.cluster(data=d,
                 #cluster the standard error in the survey cluster
                 cluster=d$twnvill,
@@ -186,20 +182,17 @@ func_model_FE<-function(d,dv){
                 d[,dv]~D_close_active_fdi+D_close_ancmt_fdi
                 # control variables
                 +as.factor(Urban)+age+I(age^2)+as.factor(gender)+as.factor(Edu)
-                # # country fixed effects
-                # +as.factor(country)
+                # country fixed effects
+                +as.factor(country)
                 # survey fixed effects
                 +as.factor(round)
   )
-  
   
   # coefficients
   coefs<-unname(coef(m)[2:3])
   
   # t values
   tvalue<-unname(summary(m)[2:3,3])
-  
-  print(m)
   
   # active-announced
   df_unmet<-coefs[1]-coefs[2]
@@ -275,7 +268,7 @@ colnames(Table_1)<-c("","(1)","(2)","(3)","(4)")
 Table_1
 
 ### Print log file for Table 1
-log_open(paste(country, sep = ""))
+log_open(paste("./",country,"_Table 1.log"))
 log_print(Table_1)
 log_close()
 
@@ -297,7 +290,7 @@ colnames(Table_2)<-c("","(1)","(2)","(3)","(4)","(5)","(6)")
 Table_2
 
 ### Print log file for Table 2
-log_open(paste(country, sep = ""))
+log_open(paste("./",country,"_Table 2.log"))
 log_print(Table_2)
 log_close()
 
@@ -310,7 +303,7 @@ data_close_fdi[[2]]<-data_close_fdi[[2]] %>%
                          ifelse(D_close_ancmt_fdi==1,Distance_ancmt_min,
                                 Distance_eventual_min)),
          Distance_bin=cut2(Distance,g=10,levels.mean=F,onlycuts = F)
-         )
+  )
 
 ### Format distance bins for plot
 bin<-data_close_fdi[[2]] %>% pull(Distance_bin) %>% unique() %>% sort()
@@ -342,8 +335,6 @@ for (s in 1:length(bin)){
   
   for (k in 1:length(dv_distance)){
     
-    print("a")
-    
     m<-lm.cluster(data=data_bin[[s]],
                   #cluster the standard error in the survey cluster
                   cluster=data_bin[[s]]$twnvill,
@@ -354,10 +345,11 @@ for (s in 1:length(bin)){
                   +as.factor(Urban)+age+I(age^2)+
                     as.factor(gender)+as.factor(Edu)
                   # country fixed effects
-                  # +as.factor(country)
+                  +as.factor(country)
                   # survey round fixed effects
                   +as.factor(round)
     )
+    
     
     out_ancmt_bin[[s]][[k]]<-c(coef(m)[3],summary(m)[3,2])
     out_active_bin[[s]][[k]]<-c(coef(m)[2],summary(m)[2,2])
@@ -444,31 +436,31 @@ for (i in 1:length(dv_name)){
 # Plot Figure 1 -----------------------------------------------------------
 
 ### panel (a) of Figure 1
-# windows(width=600,height = 350)
+windows(width=600,height = 350)
 p_distance[[1]]
-ggsave(paste("./charts/",country, "_Figure_1_a.tiff", sep = "") ,p_distance[[1]])
+ggsave(paste("./charts/",country,"_Figure_1_a.tiff",p_distance[[1]]))
 
 ### panel (b) of Figure 1
-# windows(width=600,height = 350)
+windows(width=600,height = 350)
 p_distance[[2]]
-ggsave(paste("./charts/",country, "_Figure_1_b.tiff", sep = ""),p_distance[[2]])
+ggsave(paste("./charts/",country,"_Figure_1_b.tiff",p_distance[[2]]))
 
 # Plot Figure 2 -----------------------------------------------------------
 
 ### panel (a) of Figure 2
-# windows(width=600,height = 350)
+windows(width=600,height = 350)
 p_distance[[3]]
-ggsave(paste("./charts/",country, "_Figure_2_a.tiff", sep = ""),p_distance[[3]])
+ggsave(paste("./charts/",country,"_Figure_2_a.tiff",p_distance[[3]]))
 
 ### panel (b) of Figure 2
-# windows(width=600,height = 350)
+windows(width=600,height = 350)
 p_distance[[4]]
-ggsave(paste("./charts/",country, "_Figure_2_b.tiff", sep = ""),p_distance[[4]])
+ggsave(paste("./charts/",country,"_Figure_2_b.tiff",p_distance[[4]]))
 
 ### panel (c) of Figure 2
-# windows(width=600,height = 350)
+windows(width=600,height = 350)
 p_distance[[5]]
-ggsave(paste("./charts/",country, "_Figure_2_c.tiff", sep = ""),p_distance[[5]])
+ggsave(paste("./charts/",country,"_Figure_2_c.tiff",p_distance[[5]]))
 
 # Estimate effects by time ------------------------------------------------
 
@@ -480,8 +472,6 @@ dv_time<-c("PSP_econ_O","PSP_econin1yr_O",
 out_ancmt_time<-out_active_time<-list()
 for (k in 1:length(dv_time)){
   
-  print("b")
-  
   m<-lm.cluster(data=data_close_fdi_time,
                 #cluster the standard error in the survey cluster
                 cluster=data_close_fdi_time$twnvill,
@@ -491,7 +481,7 @@ for (k in 1:length(dv_time)){
                 # control variables
                 +as.factor(Urban)+age+I(age^2)+as.factor(gender)+as.factor(Edu)
                 # country fixed effects
-                # +as.factor(country)
+                +as.factor(country)
                 # year fixed effects
                 +as.factor(round)
   )
@@ -537,10 +527,10 @@ out_effects_time<-out_effects_time %>%
                                "Future economic conditions",
                                "Managing economy","Creating jobs",
                                "Presidential approval"))
-         )
+  )
 
 # Plot Figure 3 -----------------------------------------------------------
-# windows(width=1000,height = 350)
+windows(width=1000,height = 350)
 out_effects_time %>% 
   ggplot()+
   geom_pointrange(aes(x=Timeframe,
@@ -554,7 +544,7 @@ out_effects_time %>%
   scale_x_discrete(labels=c("1 yr.","2 yr.","3-5 yr."))+
   my_theme_2+
   facet_wrap(~DV,nrow=1)
-ggsave(paste("./charts/",country, "_Figure_3.tiff", sep = ""))
+ggsave(paste("./charts/",country,"_Figure_3.tiff", sep = ""))
 
 # Compare FDI and aid: effects by time ------------------------------------
 
@@ -569,8 +559,6 @@ for (j in 1:length(data_time)){
   
   for (k in 1:length(dv_time)){
     
-    print("c")
-    
     m<-lm.cluster(data=data_time[[j]],
                   #cluster the standard error in the survey cluster
                   cluster=data_time[[j]]$twnvill,
@@ -581,7 +569,7 @@ for (j in 1:length(data_time)){
                   +as.factor(Urban)+age+I(age^2)+
                     as.factor(gender)+as.factor(Edu)
                   # country fixed effects
-                  # +as.factor(country)
+                  +as.factor(country)
                   # year fixed effectsd
                   +as.factor(round)
     )
@@ -613,7 +601,7 @@ for (j in 1:length(out_ancmt_compare)){
 }
 out_ancmt_compare<-bind_rows(out_ancmt_compare) %>% 
   mutate(Dataset=c(rep("Close to FDI",15),rep("Close to Aid", 15))
-         )
+  )
 
 # active
 for (j in 1:length(out_active_compare)){
@@ -646,11 +634,11 @@ out_effects_compare<-out_effects_compare %>%
                                "Managing economy","Creating jobs",
                                "Presidential approval")),
          Dataset=factor(Dataset,levels=c("Close to FDI","Close to Aid"))
-         )
+  )
 
 
 # Plot Figure 4 -----------------------------------------------------------
-# windows(width=1000,height = 500)
+windows(width=1000,height = 500)
 out_effects_compare %>% 
   ggplot()+
   geom_pointrange(aes(x=Timeframe,
@@ -668,4 +656,5 @@ out_effects_compare %>%
 ggsave(paste("./charts/",country,"_Figure_4.tiff", sep = ""))
 
 
-}
+
+# }
