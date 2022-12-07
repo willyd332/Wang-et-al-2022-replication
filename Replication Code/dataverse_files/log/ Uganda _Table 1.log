@@ -1,0 +1,37 @@
+========================================================================= 
+Log Path: ./log/ Uganda _Table 1.log 
+Program Path: /Users/will/Desktop/ORGANIZED/SCHOOL/EMORY/EMORY_CLG/Y4_S1/Pols 334 - African Politics/Replication Paper/Wang-et-al-2022-replication/Replication Code/dataverse_files/Replicate_Main.R 
+Working Directory: /Users/will/Desktop/ORGANIZED/SCHOOL/EMORY/EMORY_CLG/Y4_S1/Pols 334 - African Politics/Replication Paper/Wang-et-al-2022-replication/Replication Code/dataverse_files 
+User Name: will 
+R Version: 4.1.2 (2021-11-01) 
+Machine: Wills-MacBook-Pro.local x86_64 
+Operating System: Darwin 21.5.0 Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:22 PDT 2022; root:xnu-8020.121.3~4/RELEASE_X86_64 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: logr_1.3.3 xtable_1.8-4 Hmisc_4.7-1 Formula_1.2-4 survival_3.2-13 lattice_0.20-45 car_3.1-0 carData_3.0-5 miceadds_3.15-21 mice_3.14.0 forcats_0.5.1 stringr_1.4.1 dplyr_1.0.9 purrr_0.3.4 readr_2.1.2 tidyr_1.2.0 tibble_3.1.6 ggplot2_3.3.6 tidyverse_1.3.1 lwgeom_0.2-9 spData_2.2.0 sf_1.0-8 
+Log Start Time: 2022-12-07 14:20:44 
+========================================================================= 
+
+                                         (1)        (2)         (3)        (4)       
+ [1,] "Announced"                        "-0.237"   "-0.587"    "-0.158"   "-0.299"  
+ [2,] ""                                 "(-5.047)" "(-5.437)"  "(-2.871)" "(-2.596)"
+ [3,] "Active"                           "-0.303"   "-0.994"    "-0.082"   "-0.581"  
+ [4,] ""                                 "(-9.244)" "(-11.145)" "(-1.846)" "(-5.548)"
+ [5,] "Active-Announced"                 "-0.066"   "-0.407"    "0.076"    "-0.282"  
+ [6,] "F test: Active=Announced"         "1.702"    "11.080"    "1.421"    "4.056"   
+ [7,] "p value"                          "0.192"    "0.001"     "0.233"    "0.044"   
+ [8,] "Mean of dependent variable"       "0.328"    "1.545"     "0.447"    "1.925"   
+ [9,] "Individual controls"              "Yes"      "Yes"       "Yes"      "Yes"     
+[10,] "Survey round fixed effects"       "Yes"      "Yes"       "Yes"      "Yes"     
+[11,] "Number of observations"           "Yes"      "Yes"       "Yes"      "Yes"     
+[12,] "Number of countries"              "2169"     "2169"      "2131"     "2131"    
+[13,] "Number of townships and villages" "1"        "1"         "1"        "1"       
+[14,] "Survey rounds"                    "370"      "370"       "370"      "370"     
+[15,] "Adjusted R squared"               "1-7"      "1-7"       "1-7"      "1-7"     
+[16,] "Announced"                        "0.144"    "0.220"     "0.086"    "0.154"   
+
+NOTE: Log Print Time:  2022-12-07 14:20:44 
+NOTE: Elapsed Time: 0.00167703628540039 secs 
+
+========================================================================= 
+Log End Time: 2022-12-07 14:20:44 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

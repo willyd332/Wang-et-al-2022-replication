@@ -22,11 +22,32 @@ library(grDevices)
 options(scipen=999)
 
 
-all_countries <- c("Botswana", "Ghana", "Kenya", "Madagascar", "Mozambique", "Nigeria", "Senegal", "South Africa", "Tanzania", "Uganda", "Zimbabwe", "Algeria", "Cameroon", "Cote d'Ivoire", "Egypt", "Malawi", "Mauritius", "Morocco", "Namibia", "Tunisia", "Zambia")
+all_countries <- c("Botswana", "Ghana", "Kenya", "Madagascar", "Mozambique", 
+                   "Nigeria", "Senegal", "South Africa", "Tanzania", "Uganda", 
+                   "Zimbabwe", "Algeria", "Cameroon", "Cote d'Ivoire", "Egypt", 
+                   "Malawi", "Mauritius", "Morocco", "Namibia", "Tunisia", "Zambia")
 
 # for (country in all_countries) {
 
-country <- "Botswana"
+# Below are the countries usable for individual level analysis
+
+# country <- "Ghana"
+# country <- "Kenya"
+# country <- "Madagascar"
+# country <- "Nigeria"
+# country <- "Senegal"
+# country <- "South Africa"
+# country <- "Uganda"
+# country <- "Egypt"
+# country <- "Morocco"
+# country <- "Zambia"
+
+
+unuseable_countries <- c("Botswana", "Mozambique","Tanzania", "Zimbabwe", 
+                         "Egypt", "Malawi", "Mauritius", "Namibia", "Tunisia")
+
+useable_countries <- c("Ghana", "Kenya", "Madagascar", "Nigeria", "Senegal", 
+                       "South Africa", "Uganda", "Egypt", "Morocco", "Zambia")
 
 # Plot themes --------------------------------------------------------------
 
@@ -175,6 +196,8 @@ data_close_aid_sub_time<-data_close_aid_sub[[1]] %>%
 # Function: model with country and survey FE ------------------------------
 func_model_FE<-function(d,dv){
   
+  print(sapply(lapply(d, unique), length))
+  
   m<-lm.cluster(data=d,
                 #cluster the standard error in the survey cluster
                 cluster=d$twnvill,
@@ -183,7 +206,7 @@ func_model_FE<-function(d,dv){
                 # control variables
                 +as.factor(Urban)+age+I(age^2)+as.factor(gender)+as.factor(Edu)
                 # country fixed effects
-                +as.factor(country)
+                # +as.factor(country)
                 # survey fixed effects
                 +as.factor(round)
   )
@@ -240,7 +263,7 @@ table_main<-function(out_list){
   names_iv<-c("Announced","","Active","","Active-Announced",
               "F test: Active=Announced","p value",
               "Mean of dependent variable","Individual controls",
-              "Country fixed effects","Survey round fixed effects",
+              "Survey round fixed effects",
               "Number of observations","Number of countries",
               "Number of townships and villages",
               "Survey rounds","Adjusted R squared")
@@ -345,7 +368,7 @@ for (s in 1:length(bin)){
                   +as.factor(Urban)+age+I(age^2)+
                     as.factor(gender)+as.factor(Edu)
                   # country fixed effects
-                  +as.factor(country)
+                  # +as.factor(country)
                   # survey round fixed effects
                   +as.factor(round)
     )
@@ -481,7 +504,7 @@ for (k in 1:length(dv_time)){
                 # control variables
                 +as.factor(Urban)+age+I(age^2)+as.factor(gender)+as.factor(Edu)
                 # country fixed effects
-                +as.factor(country)
+                # +as.factor(country)
                 # year fixed effects
                 +as.factor(round)
   )
@@ -569,7 +592,7 @@ for (j in 1:length(data_time)){
                   +as.factor(Urban)+age+I(age^2)+
                     as.factor(gender)+as.factor(Edu)
                   # country fixed effects
-                  +as.factor(country)
+                  # +as.factor(country)
                   # year fixed effectsd
                   +as.factor(round)
     )
