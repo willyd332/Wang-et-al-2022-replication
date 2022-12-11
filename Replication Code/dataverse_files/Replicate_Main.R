@@ -50,6 +50,7 @@ useable_countries <- c("Ghana", "Kenya", "Madagascar", "Nigeria", "Senegal",
                        "South Africa", "Uganda", "Egypt", "Morocco", "Zambia")
 
 # Plot themes --------------------------------------------------------------
+# for (country in useable_countries){
 
 ### theme 1
 my_theme_1<-theme_bw()+
@@ -110,7 +111,7 @@ for (j in 1:length(data_respno_FDI)){
   data_close_fdi[[j]]<-data_close_fdi[[j]] %>% 
     filter(!country %in% country_drop)
   
-}
+#  # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 # Aid dataset: drop those not close to any projects -----------------------
 data_close_aid<-list()
@@ -257,13 +258,15 @@ table_main<-function(out_list){
   
   out_table[-c(12:14),]<-format(round(out_table[-c(12:14),],3),nsmall=3)
   out_table<-trimws(out_table)
-  out_table[9:11,]<-"Yes"
+  out_table[9,]<-"Yes"
+  out_table[11,]<-"Yes"
+  out_table[10,]<-"No"
   out_table[c(2,4),]<-paste("(",out_table[c(2,4),],")",sep="")
   out_table[15,]<-"1-7"
   names_iv<-c("Announced","","Active","","Active-Announced",
               "F test: Active=Announced","p value",
               "Mean of dependent variable","Individual controls",
-              "Survey round fixed effects",
+              "Country fixed effects","Survey round fixed effects",
               "Number of observations","Number of countries",
               "Number of townships and villages",
               "Survey rounds","Adjusted R squared")
@@ -290,10 +293,12 @@ Table_1<-table_main(out_econ)
 colnames(Table_1)<-c("","(1)","(2)","(3)","(4)")
 Table_1
 
-### Print log file for Table 1
-log_open(paste("./",country,"_Table 1.log"))
-log_print(Table_1)
-log_close()
+# ### Print log file for Table 1
+# log_open(paste("./",country,"_Table 1.log"))
+# log_print(Table_1)
+# log_close()
+
+print(xtable(Table_1),file=paste("./",country,"_Table_1.tex"))
 
 # Table 2: Chinese FDI and perceptions of political competence ------------
 
@@ -312,11 +317,13 @@ Table_2<-table_main(out_poli)
 colnames(Table_2)<-c("","(1)","(2)","(3)","(4)","(5)","(6)")
 Table_2
 
-### Print log file for Table 2
-log_open(paste("./",country,"_Table 2.log"))
-log_print(Table_2)
-log_close()
+# ### Print log file for Table 2
+# log_open(paste("./",country,"_Table 2.log"))
+# log_print(Table_2)
+# log_close()
+print(xtable(Table_2),file=paste("./",country,"_Table_2.tex"))
 
+}
 
 # Estimate effects by distance --------------------------------------------
 
@@ -459,29 +466,24 @@ for (i in 1:length(dv_name)){
 # Plot Figure 1 -----------------------------------------------------------
 
 ### panel (a) of Figure 1
-windows(width=600,height = 350)
 p_distance[[1]]
 ggsave(paste("./charts/",country,"_Figure_1_a.tiff",p_distance[[1]]))
 
 ### panel (b) of Figure 1
-windows(width=600,height = 350)
 p_distance[[2]]
 ggsave(paste("./charts/",country,"_Figure_1_b.tiff",p_distance[[2]]))
 
 # Plot Figure 2 -----------------------------------------------------------
 
 ### panel (a) of Figure 2
-windows(width=600,height = 350)
 p_distance[[3]]
 ggsave(paste("./charts/",country,"_Figure_2_a.tiff",p_distance[[3]]))
 
 ### panel (b) of Figure 2
-windows(width=600,height = 350)
 p_distance[[4]]
 ggsave(paste("./charts/",country,"_Figure_2_b.tiff",p_distance[[4]]))
 
 ### panel (c) of Figure 2
-windows(width=600,height = 350)
 p_distance[[5]]
 ggsave(paste("./charts/",country,"_Figure_2_c.tiff",p_distance[[5]]))
 
@@ -553,7 +555,6 @@ out_effects_time<-out_effects_time %>%
   )
 
 # Plot Figure 3 -----------------------------------------------------------
-windows(width=1000,height = 350)
 out_effects_time %>% 
   ggplot()+
   geom_pointrange(aes(x=Timeframe,
@@ -661,7 +662,6 @@ out_effects_compare<-out_effects_compare %>%
 
 
 # Plot Figure 4 -----------------------------------------------------------
-windows(width=1000,height = 500)
 out_effects_compare %>% 
   ggplot()+
   geom_pointrange(aes(x=Timeframe,
@@ -680,4 +680,4 @@ ggsave(paste("./charts/",country,"_Figure_4.tiff", sep = ""))
 
 
 
-# }
+}
